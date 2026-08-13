@@ -1,0 +1,28 @@
+# 측정 대상 매장 목록.
+# TODO(사용자 확인 필요): 실제 매장 정보로 교체하세요. 아래는 placeholder입니다.
+restaurants:
+  - id: hongdae_a
+    name: "홍대 A식당"
+    name_en: "Hongdae A Restaurant"
+    category: "한식"
+    subcategory: "국밥"
+    address: "서울 마포구 홍익로 XX"
+    coordinates: [37.5563, 126.9236]
+    phone: "02-XXX-XXXX"
+    hours: "11:00-22:00"
+    price_range: "10000-20000"
+    website: "https://example.com"
+    # LLM 응답에서 아래 이름들도 매칭 대상으로 취급
+    aliases: ["홍대 A", "A식당 홍대점", "Hongdae A"]
+    # 랜딩 페이지에 인용할 리뷰 (선택)
+    reviews:
+      - author: "김OO"
+        rating: 5
+        text: "국물이 진하고 깔끔해요. 웨이팅할 가치가 있습니다."
+      - author: "이OO"
+        rating: 4
+        text: "혼밥하기 좋고 가성비가 훌륭합니다."
+    # 집계 평점 (선택 — 랜딩 페이지 JSON-LD의 aggregateRating)
+    aggregate_rating:
+      value: 4.5
+      count: 128

@@ -1,0 +1,27 @@
+# 측정 채널 목록. 채널 = provider + model + 검색 on/off 조합.
+# provider: openai | anthropic | google | perplexity
+llms:
+  - id: gpt5_search
+    provider: openai
+    model: gpt-5
+    use_search: true
+  - id: gpt5_no_search
+    provider: openai
+    model: gpt-5
+    use_search: false
+  - id: claude_opus_search
+    provider: anthropic
+    model: claude-opus-5
+    use_search: true
+  - id: claude_opus_no_search
+    provider: anthropic
+    model: claude-opus-5
+    use_search: false
+  - id: gemini_search
+    provider: google
+    model: gemini-2.5-pro
+    use_search: true
+  - id: perplexity_sonar
+    provider: perplexity
+    model: sonar-pro
+    use_search: true

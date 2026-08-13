@@ -1,0 +1,2008 @@
+{
+  "date": "2026-08-14",
+  "mode": "mock",
+  "restaurant_id": "hongdae_a",
+  "restaurant_name": "홍대 A식당",
+  "results": [
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_general",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_general",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_general",
+      "channel_id": "claude_opus_search",
+      "mentioned": true,
+      "rank": 1,
+      "context": "홍대 근처 추천 맛집입니다:\n1. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4.",
+      "sentiment": "positive",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_general",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_general",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_general",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_top",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_top",
+      "channel_id": "gpt5_no_search",
+      "mentioned": true,
+      "rank": 4,
+      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_top",
+      "channel_id": "claude_opus_search",
+      "mentioned": true,
+      "rank": 2,
+      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5.",
+      "sentiment": "positive",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_top",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_top",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_top",
+      "channel_id": "perplexity_sonar",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_korean",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_korean",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_korean",
+      "channel_id": "claude_opus_search",
+      "mentioned": true,
+      "rank": 4,
+      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_korean",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_korean",
+      "channel_id": "gemini_search",
+      "mentioned": true,
+      "rank": 1,
+      "context": "홍대 근처 추천 맛집입니다:\n1. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4.",
+      "sentiment": "positive",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_korean",
+      "channel_id": "perplexity_sonar",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap",
+      "channel_id": "claude_opus_search",
+      "mentioned": true,
+      "rank": 3,
+      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap",
+      "channel_id": "gemini_search",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap_en",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap_en",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap_en",
+      "channel_id": "claude_opus_search",
+      "mentioned": true,
+      "rank": 2,
+      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5.",
+      "sentiment": "positive",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap_en",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": true,
+      "rank": 4,
+      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap_en",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_gukbap_en",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_date",
+      "channel_id": "gpt5_search",
+      "mentioned": true,
+      "rank": 2,
+      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5.",
+      "sentiment": "positive",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_date",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_date",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_date",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_date",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_date",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_solo",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_solo",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_solo",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_solo",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_solo",
+      "channel_id": "gemini_search",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_solo",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_group",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_group",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_group",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_group",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_group",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_group",
+      "channel_id": "perplexity_sonar",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_cheap",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_cheap",
+      "channel_id": "gpt5_no_search",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_cheap",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_cheap",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_cheap",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_cheap",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_late",
+      "channel_id": "gpt5_search",
+      "mentioned": true,
+      "rank": 3,
+      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_late",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_late",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_late",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_late",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_late",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_local_pick",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_local_pick",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_local_pick",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_local_pick",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_local_pick",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_local_pick",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_lunch",
+      "channel_id": "gpt5_search",
+      "mentioned": true,
+      "rank": 4,
+      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_lunch",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_lunch",
+      "channel_id": "claude_opus_search",
+      "mentioned": true,
+      "rank": 3,
+      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_lunch",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_lunch",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_lunch",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_traditional",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_traditional",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_traditional",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_traditional",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_traditional",
+      "channel_id": "gemini_search",
+      "mentioned": true,
+      "rank": 3,
+      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_traditional",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_soup",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_soup",
+      "channel_id": "gpt5_no_search",
+      "mentioned": true,
+      "rank": 4,
+      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_soup",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_soup",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_soup",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_soup",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_tourist_en",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_tourist_en",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_tourist_en",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_tourist_en",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_tourist_en",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_tourist_en",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_hangover",
+      "channel_id": "gpt5_search",
+      "mentioned": true,
+      "rank": 4,
+      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_hangover",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_hangover",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_hangover",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_hangover",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_hangover",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_mapo_gukbap",
+      "channel_id": "gpt5_search",
+      "mentioned": true,
+      "rank": 4,
+      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_mapo_gukbap",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_mapo_gukbap",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_mapo_gukbap",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": true,
+      "rank": 2,
+      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5.",
+      "sentiment": "positive",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_mapo_gukbap",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_mapo_gukbap",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_family",
+      "channel_id": "gpt5_search",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_family",
+      "channel_id": "gpt5_no_search",
+      "mentioned": true,
+      "rank": 3,
+      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_family",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_family",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_family",
+      "channel_id": "gemini_search",
+      "mentioned": true,
+      "rank": 2,
+      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5.",
+      "sentiment": "positive",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_family",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_rainy",
+      "channel_id": "gpt5_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_rainy",
+      "channel_id": "gpt5_no_search",
+      "mentioned": true,
+      "rank": 4,
+      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_rainy",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_rainy",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_rainy",
+      "channel_id": "gemini_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_rainy",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_best_overall",
+      "channel_id": "gpt5_search",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_best_overall",
+      "channel_id": "gpt5_no_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-gpt-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_best_overall",
+      "channel_id": "claude_opus_search",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_best_overall",
+      "channel_id": "claude_opus_no_search",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 0,
+      "model_version": "mock-claude-opus-5",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_best_overall",
+      "channel_id": "gemini_search",
+      "mentioned": true,
+      "rank": 5,
+      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-gemini-2.5-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 홍대 A식당 — 홍대 인근에서 평이 좋은 곳입니다."
+    },
+    {
+      "restaurant_id": "hongdae_a",
+      "query_id": "q_hongdae_best_overall",
+      "channel_id": "perplexity_sonar",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [
+        "blog.naver.com",
+        "mangoplate.com",
+        "siksinhot.com"
+      ],
+      "latency_ms": 0,
+      "model_version": "mock-sonar-pro",
+      "error": "",
+      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+    }
+  ]
+}

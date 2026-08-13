@@ -1,0 +1,1167 @@
+{
+  "date": "2026-08-14",
+  "mode": "mock",
+  "restaurant_id": "hongdae_a",
+  "snapshots": [
+    {
+      "query_id": "q_hongdae_general",
+      "query_text": "홍대 근처 맛집 5곳 추천해줘",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2294945",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/94946",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/94947",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=94948",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-94949",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/94950",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=94951",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/94952",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/94953",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처 맛집 5곳 추천해줘 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/94954",
+          "snippet": "홍대 근처 맛집 5곳 추천해줘에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_top",
+      "query_text": "홍대 맛집 순위 알려줘",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 맛집 순위 알려줘 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2293037",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/93038",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/93039",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=93040",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-93041",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/93042",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=93043",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/93044",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/93045",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 맛집 순위 알려줘 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/93046",
+          "snippet": "홍대 맛집 순위 알려줘에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_korean",
+      "query_text": "홍대에서 한식 맛집 알려줘",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/226567",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/6568",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/6569",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=6570",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-6571",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/6572",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=6573",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/6574",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/6575",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 한식 맛집 알려줘 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/6576",
+          "snippet": "홍대에서 한식 맛집 알려줘에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_gukbap",
+      "query_text": "홍대 국밥 맛집 어디가 좋아?",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2242114",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/42115",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/42116",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=42117",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-42118",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/42119",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=42120",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/42121",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/42122",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 국밥 맛집 어디가 좋아? — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/42123",
+          "snippet": "홍대 국밥 맛집 어디가 좋아?에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_gukbap_en",
+      "query_text": "Where can I find good gukbap (Korean soup with rice) near Hongdae?",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2246316",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/46317",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/46318",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=46319",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-46320",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/46321",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=46322",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/46323",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/46324",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "Where can I find good gukbap (Korean soup with rice) near Hongdae? — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/46325",
+          "snippet": "Where can I find good gukbap (Korean soup with rice) near Hongdae?에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_date",
+      "query_text": "홍대 데이트 코스로 가기 좋은 저녁 식당",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2222467",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/22468",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/22469",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=22470",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-22471",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/22472",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=22473",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/22474",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/22475",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 데이트 코스로 가기 좋은 저녁 식당 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/22476",
+          "snippet": "홍대 데이트 코스로 가기 좋은 저녁 식당에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_solo",
+      "query_text": "홍대에서 혼밥하기 좋은 식당 추천",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2255895",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/55896",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/55897",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=55898",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-55899",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/55900",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=55901",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/55902",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/55903",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 혼밥하기 좋은 식당 추천 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/55904",
+          "snippet": "홍대에서 혼밥하기 좋은 식당 추천에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_group",
+      "query_text": "홍대에서 단체 회식하기 좋은 곳",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2237224",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/37225",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/37226",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=37227",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-37228",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/37229",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=37230",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/37231",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/37232",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 단체 회식하기 좋은 곳 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/37233",
+          "snippet": "홍대에서 단체 회식하기 좋은 곳에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_cheap",
+      "query_text": "홍대 가성비 좋은 밥집 추천해줘",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2232455",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/32456",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/32457",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=32458",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-32459",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/32460",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=32461",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/32462",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/32463",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 가성비 좋은 밥집 추천해줘 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/32464",
+          "snippet": "홍대 가성비 좋은 밥집 추천해줘에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_late",
+      "query_text": "홍대 늦은 시간까지 하는 식당 있어?",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2215056",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/15057",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/15058",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=15059",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-15060",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/15061",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=15062",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/15063",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/15064",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 늦은 시간까지 하는 식당 있어? — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/15065",
+          "snippet": "홍대 늦은 시간까지 하는 식당 있어?에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_local_pick",
+      "query_text": "현지인들이 진짜 가는 홍대 맛집 알려줘",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2292079",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/92080",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/92081",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=92082",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-92083",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/92084",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=92085",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/92086",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/92087",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "현지인들이 진짜 가는 홍대 맛집 알려줘 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/92088",
+          "snippet": "현지인들이 진짜 가는 홍대 맛집 알려줘에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_lunch",
+      "query_text": "홍대 점심 맛집 추천",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 점심 맛집 추천 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2246322",
+          "snippet": "홍대 점심 맛집 추천에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/46323",
+          "snippet": "홍대 점심 맛집 추천에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/46324",
+          "snippet": "홍대 점심 맛집 추천에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=46325",
+          "snippet": "홍대 점심 맛집 추천에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-46326",
+          "snippet": "홍대 점심 맛집 추천에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/46327",
+          "snippet": "홍대 점심 맛집 추천에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=46328",
+          "snippet": "홍대 점심 맛집 추천에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/46329",
+          "snippet": "홍대 점심 맛집 추천에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/46330",
+          "snippet": "홍대 점심 맛집 추천에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 점심 맛집 추천 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/46331",
+          "snippet": "홍대 점심 맛집 추천에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_traditional",
+      "query_text": "홍대 근처에서 전통 한식 먹을 수 있는 곳",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2289242",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/89243",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/89244",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=89245",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-89246",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/89247",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=89248",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/89249",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/89250",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 근처에서 전통 한식 먹을 수 있는 곳 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/89251",
+          "snippet": "홍대 근처에서 전통 한식 먹을 수 있는 곳에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_soup",
+      "query_text": "홍대에서 국물 요리 잘하는 집 추천해줘",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/227846",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/7847",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/7848",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=7849",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-7850",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/7851",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=7852",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/7853",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/7854",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 국물 요리 잘하는 집 추천해줘 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/7855",
+          "snippet": "홍대에서 국물 요리 잘하는 집 추천해줘에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_tourist_en",
+      "query_text": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2283978",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/83979",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/83980",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=83981",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-83982",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/83983",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=83984",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/83985",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/83986",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "I'm visiting Hongdae in Seoul. What are must-try local restaurants? — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/83987",
+          "snippet": "I'm visiting Hongdae in Seoul. What are must-try local restaurants?에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_hangover",
+      "query_text": "홍대 해장하기 좋은 곳 추천",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2263708",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/63709",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/63710",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=63711",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-63712",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/63713",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=63714",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/63715",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/63716",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 해장하기 좋은 곳 추천 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/63717",
+          "snippet": "홍대 해장하기 좋은 곳 추천에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_mapo_gukbap",
+      "query_text": "마포구 국밥 맛집 알려줘",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2246635",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/46636",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/46637",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=46638",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-46639",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/46640",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=46641",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/46642",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/46643",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "마포구 국밥 맛집 알려줘 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/46644",
+          "snippet": "마포구 국밥 맛집 알려줘에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_family",
+      "query_text": "홍대 부모님 모시고 가기 좋은 식당",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/227478",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/7479",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/7480",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=7481",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-7482",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/7483",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=7484",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/7485",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/7486",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대 부모님 모시고 가기 좋은 식당 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/7487",
+          "snippet": "홍대 부모님 모시고 가기 좋은 식당에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_rainy",
+      "query_text": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/2246071",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/46072",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/46073",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=46074",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-46075",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/46076",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=46077",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/46078",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/46079",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/46080",
+          "snippet": "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    },
+    {
+      "query_id": "q_hongdae_best_overall",
+      "query_text": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘",
+      "engine": "mock",
+      "results": [
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 네이버 블로그 추천 글 1",
+          "url": "https://blog.naver.com/food/227755",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 네이버 블로그 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 망고플레이트 추천 글 2",
+          "url": "https://www.mangoplate.com/restaurants/7756",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 망고플레이트 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 식신 추천 글 3",
+          "url": "https://www.siksinhot.com/P/7757",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 식신 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 다이닝코드 추천 글 4",
+          "url": "https://www.diningcode.com/profile.php?rid=7758",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 다이닝코드 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 트립어드바이저 추천 글 5",
+          "url": "https://www.tripadvisor.com/Restaurant-7759",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 트립어드바이저 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 인스타그램 추천 글 6",
+          "url": "https://www.instagram.com/p/7760",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 인스타그램 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 유튜브 추천 글 7",
+          "url": "https://www.youtube.com/watch?v=7761",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 유튜브 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 티스토리 추천 글 8",
+          "url": "https://food.tistory.com/7762",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 티스토리 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 네이버 플레이스 추천 글 9",
+          "url": "https://map.naver.com/p/entry/place/7763",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 네이버 플레이스 정리 글입니다."
+        },
+        {
+          "title": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘 — 카카오맵 추천 글 10",
+          "url": "https://place.map.kakao.com/7764",
+          "snippet": "홍대에서 제일 맛있는 식당 딱 하나만 골라줘에 대한 카카오맵 정리 글입니다."
+        }
+      ],
+      "own_domain_rank": null
+    }
+  ]
+}

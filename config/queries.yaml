@@ -1,0 +1,85 @@
+# LLM에 던질 표준 프롬프트 목록.
+# intent: generic_local_list | category_local | occasion_local | attribute_local | comparison
+# weight: 리포트에서 가중 합산에 사용 (중요 쿼리에 높은 가중치)
+queries:
+  - id: q_hongdae_general
+    text_ko: "홍대 근처 맛집 5곳 추천해줘"
+    text_en: "Recommend 5 restaurants near Hongdae, Seoul"
+    intent: generic_local_list
+    weight: 1.0
+  - id: q_hongdae_top
+    text_ko: "홍대 맛집 순위 알려줘"
+    intent: generic_local_list
+    weight: 1.0
+  - id: q_hongdae_korean
+    text_ko: "홍대에서 한식 맛집 알려줘"
+    intent: category_local
+    weight: 1.2
+  - id: q_hongdae_gukbap
+    text_ko: "홍대 국밥 맛집 어디가 좋아?"
+    intent: category_local
+    weight: 1.5
+  - id: q_hongdae_gukbap_en
+    text_ko: "Where can I find good gukbap (Korean soup with rice) near Hongdae?"
+    intent: category_local
+    weight: 1.2
+  - id: q_hongdae_date
+    text_ko: "홍대 데이트 코스로 가기 좋은 저녁 식당"
+    intent: occasion_local
+    weight: 1.0
+  - id: q_hongdae_solo
+    text_ko: "홍대에서 혼밥하기 좋은 식당 추천"
+    intent: occasion_local
+    weight: 1.0
+  - id: q_hongdae_group
+    text_ko: "홍대에서 단체 회식하기 좋은 곳"
+    intent: occasion_local
+    weight: 0.8
+  - id: q_hongdae_cheap
+    text_ko: "홍대 가성비 좋은 밥집 추천해줘"
+    intent: attribute_local
+    weight: 1.0
+  - id: q_hongdae_late
+    text_ko: "홍대 늦은 시간까지 하는 식당 있어?"
+    intent: attribute_local
+    weight: 0.8
+  - id: q_hongdae_local_pick
+    text_ko: "현지인들이 진짜 가는 홍대 맛집 알려줘"
+    intent: attribute_local
+    weight: 1.2
+  - id: q_hongdae_lunch
+    text_ko: "홍대 점심 맛집 추천"
+    intent: occasion_local
+    weight: 1.0
+  - id: q_hongdae_traditional
+    text_ko: "홍대 근처에서 전통 한식 먹을 수 있는 곳"
+    intent: category_local
+    weight: 1.0
+  - id: q_hongdae_soup
+    text_ko: "홍대에서 국물 요리 잘하는 집 추천해줘"
+    intent: category_local
+    weight: 1.2
+  - id: q_hongdae_tourist_en
+    text_ko: "I'm visiting Hongdae in Seoul. What are must-try local restaurants?"
+    intent: generic_local_list
+    weight: 1.0
+  - id: q_hongdae_hangover
+    text_ko: "홍대 해장하기 좋은 곳 추천"
+    intent: occasion_local
+    weight: 1.0
+  - id: q_mapo_gukbap
+    text_ko: "마포구 국밥 맛집 알려줘"
+    intent: category_local
+    weight: 1.0
+  - id: q_hongdae_family
+    text_ko: "홍대 부모님 모시고 가기 좋은 식당"
+    intent: occasion_local
+    weight: 0.8
+  - id: q_hongdae_rainy
+    text_ko: "비 오는 날 홍대에서 뜨끈한 국물 먹을 만한 곳"
+    intent: occasion_local
+    weight: 0.8
+  - id: q_hongdae_best_overall
+    text_ko: "홍대에서 제일 맛있는 식당 딱 하나만 골라줘"
+    intent: comparison
+    weight: 1.0
