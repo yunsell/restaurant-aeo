@@ -1,28 +1,36 @@
 # 측정 대상 매장 목록.
-# TODO(사용자 확인 필요): 실제 매장 정보로 교체하세요. 아래는 placeholder입니다.
+# NOTE: "온기국밥 홍대점"은 이 프로젝트 검증용으로 만든 가상의 매장입니다.
+#       실제 매장으로 전환할 때 이 블록만 교체하면 됩니다.
 restaurants:
-  - id: hongdae_a
-    name: "홍대 A식당"
-    name_en: "Hongdae A Restaurant"
+  - id: ongi_gukbap
+    name: "온기국밥 홍대점"
+    name_en: "Ongi Gukbap Hongdae"
     category: "한식"
-    subcategory: "국밥"
-    address: "서울 마포구 홍익로 XX"
-    coordinates: [37.5563, 126.9236]
-    phone: "02-XXX-XXXX"
-    hours: "11:00-22:00"
-    price_range: "10000-20000"
-    website: "https://example.com"
+    subcategory: "돼지국밥"
+    address: "서울 마포구 홍익로 23-4 1층"
+    coordinates: [37.5536, 126.9251]
+    phone: "02-1234-5678"
+    hours: "10:30-21:30"
+    price_range: "9000-15000"
+    website: "https://ongi-gukbap.example.com"   # GitHub Pages 배포 후 실제 URL로 교체
     # LLM 응답에서 아래 이름들도 매칭 대상으로 취급
-    aliases: ["홍대 A", "A식당 홍대점", "Hongdae A"]
-    # 랜딩 페이지에 인용할 리뷰 (선택)
+    aliases:
+      - "온기국밥"
+      - "온기 국밥"
+      - "홍대 온기국밥"
+      - "Ongi Gukbap"
+    # 랜딩 페이지에 인용할 리뷰 (가상)
     reviews:
-      - author: "김OO"
+      - author: "박지은"
         rating: 5
-        text: "국물이 진하고 깔끔해요. 웨이팅할 가치가 있습니다."
-      - author: "이OO"
+        text: "사골을 18시간 우린다는데 국물이 정말 뽀얗고 잡내가 하나도 없어요. 홍대에서 해장은 여기가 답."
+      - author: "김민준"
+        rating: 5
+        text: "혼밥 좌석이 따로 있어서 편하게 먹었습니다. 수육 반접시 추가 강추."
+      - author: "이서연"
         rating: 4
-        text: "혼밥하기 좋고 가성비가 훌륭합니다."
-    # 집계 평점 (선택 — 랜딩 페이지 JSON-LD의 aggregateRating)
+        text: "점심시간엔 웨이팅이 있지만 회전이 빨라요. 부추무침 셀프바가 후하다."
+    # 집계 평점 (가상)
     aggregate_rating:
-      value: 4.5
-      count: 128
+      value: 4.6
+      count: 87

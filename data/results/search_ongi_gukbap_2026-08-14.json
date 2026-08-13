@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
   "mode": "mock",
-  "restaurant_id": "hongdae_a",
+  "restaurant_id": "ongi_gukbap",
   "snapshots": [
     {
       "query_id": "q_hongdae_general",

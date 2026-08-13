@@ -1,7 +1,7 @@
 # Baseline 리포트 (2026-08-14)
 
 ## 측정 대상
-- 매장: 홍대 A식당 (한식/국밥)
+- 매장: 온기국밥 홍대점 (한식/돼지국밥)
 - 프롬프트: 20개
 - 채널: 6개 (LLM × 검색 on/off)
 - 모드: mock
@@ -12,7 +12,7 @@
 - 감성 분포: positive 7, neutral 23
 - 오류: 0건
 
-![channel chart](charts/baseline_hongdae_a_2026-08-14.png)
+![channel chart](charts/baseline_ongi_gukbap_2026-08-14.png)
 
 ## 채널별 상세
 | 채널 | 언급 | 측정 | 언급률 | 언급 시 평균 순위 |
