@@ -12,7 +12,7 @@ restaurants:
     phone: "02-1234-5678"
     hours: "10:30-21:30"
     price_range: "9000-15000"
-    website: "https://ongi-gukbap.example.com"   # GitHub Pages 배포 후 실제 URL로 교체
+    website: "https://yunsell.github.io/restaurant-aeo"
     # LLM 응답에서 아래 이름들도 매칭 대상으로 취급
     aliases:
       - "온기국밥"
