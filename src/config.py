@@ -8,7 +8,9 @@ from pathlib import Path
 import yaml
 from dotenv import load_dotenv
 
-load_dotenv()
+# .env가 셸에 남아있는 오래된 키보다 우선하도록 override=True.
+# (CI에서는 .env가 없으므로 Actions secrets 환경변수가 그대로 쓰인다)
+load_dotenv(override=True)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = PROJECT_ROOT / "config"

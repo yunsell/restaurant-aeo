@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "mode": "mock",
+  "mode": "live",
   "restaurant_id": "ongi_gukbap",
   "restaurant_name": "온기국밥 홍대점",
   "results": [
@@ -13,14 +13,16 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "english.visitseoul.net",
+        "hongdaedak.com",
+        "koreaeats.soundedfun.dev",
+        "itcck.org",
+        "navercorp.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 112875,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대 근처 믿고 가는 맛집 5곳(짧게 핵심만)\n\n- 홍스쭈꾸미 홍대본점: 매콤한 쭈꾸미·쭈삼(쭈꾸미+삼겹) 후 볶음밥 마무리까지가 정석. 회전 빨라 웨이팅 대비 식사 속도 괜찮아요. ([english.visitseoul.net](https://english.visitseoul.net/area/2024-hongsjkm/ENPha9u5l?utm_source=openai))\n- 신미경 홍대닭갈비: 치즈퐁듀 닭갈비로 유명한 홍대 로컬 스테디셀러. 달달·매콤 밸런스 좋아서 일행과 나눠먹기 좋습니다. ([hongdaedak.com](https://hongdaedak.com/de/?utm_source=openai))\n- 육몽 홍대본점: 직원이 구워주는 한돈·한우 바비큐가 강점인 고기집. 단체 자리, 예약 가능해 회식/모임에 적합. ([koreaeats.soundedfun.dev](https://koreaeats.soundedfun.dev/en/guide/best-restaurants-hongdae))\n- 로쏘1924: 나폴리 출신 오너가 운영하는 화덕피자집. 마르게리타·프로슈토 루꼴라 추천, 캐주얼하게 한 판 먹기 딱 좋아요. ([itcck.org](https://itcck.org/ko/images/2024_ITCCK_Directory_Web_version.pdf?utm_source=openai))\n- 미쁘동(연남): 카이센동(해산물 덮밥) 전문. 우니/연어알 토핑 인기, 좌석이 적어 식사 시간대엔 웨이팅 염두에 두세요. ([koreaeats.soundedfun.dev](https://koreaeats.soundedfun.dev/en/guide/best-restaurants-hongdae))\n\n간단 팁\n- 주말 저녁은 홍대 전역이 혼잡해요. 가능하면 예약하거나 오픈/브레이크타임 직전·직후로 가면 수월합니다. 최신 영업시간·휴무는 방문 전 네이버지도/가게 공지로 한 번 더 확인하세요. ([navercorp.com](https://www.navercorp.com/service/map?utm_source=openai))\n\n원하시는 예산대(1인 얼마), 메뉴(매운맛/고기/해산물/비건 여부), 분위기(조용/캐주얼/회식)를 알려주시면 동선까지 맞춰 더 촘촘히 추천해드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -31,78 +33,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 53250,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_general",
-      "channel_id": "claude_opus_search",
-      "mentioned": true,
-      "rank": 1,
-      "context": "홍대 근처 추천 맛집입니다:\n1. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4",
-      "sentiment": "positive",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_general",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_general",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_general",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대(홍익대/연남) 근처 맛집 5곳 추천\n\n1) 연남서식당 (Yeonnam Seo Sikdang)\n- 한 줄: 1960년대부터 이어온 숯불 양념갈비 원탑급 노포\n- 대표: 소갈비, 된장찌개\n- 가격대: 1인분 3만~4만원대\n- 팁: 웨이팅 필수 수준. 저녁 피크 전(오픈~6시) 방문 추천. 직원이 구워줘서 처음 가도 편해요.\n\n2) 소이연남 본점\n- 한 줄: 진한 타이 보트누들로 유명한 태국 가정식\n- 대표: 소이뽀삐야(보트누들), 쏨땀, 무삥\n- 가격대: 1만~2만원대\n- 팁: 매운맛 단계 조절 가능. 본점은 대기 긴 편이라 브레이크타임·마감 확인 필수.\n\n3) 홍대개미 본점\n- 한 줄: 불향 살아있는 스테이크 덮밥의 원조격\n- 대표: 스테이크 덮밥, 트러플 스테이크 덮밥\n- 가격대: 1만~2만원대\n- 팁: 회전 빠른 편이라 대기 있어도 금방 들어가요. 혼밥도 편안.\n\n4) 옥동식 (본점)\n- 한 줄: 맑고 깊은 국물의 돼지국밥 끝판왕\n- 대표: 돼지국밥(맑은 스타일), 수육\n- 가격대: 1만~2만원대\n- 팁: 재료 소진 마감 잦음. 점심·이른 저녁 방문 권장. 깔끔 담백한 스타일 좋아하면 만족도 높아요.\n\n5) 라멘트럭 (연남)\n- 한 줄: 꾸덕한 농후계 라멘으로 라멘러들 성지\n- 대표: 돈코츠, 매운라멘, 교자\n- 가격대: 1만~2만원대\n- 팁: 좌석 적고 대기 잦음. 진한 스타일이라 호불호 가능—진득한 국물 좋아하면 강추.\n\n원하는 분위기(술 가능한 곳, 조용한 곳 등)나 음식 종류(한식/아시안/라멘/버거/디저트) 알려주시면 더 딱 맞게 골라드릴게요. 지도 링크나 웨이팅 적은 시간대도 안내해 드릴 수 있어요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -113,96 +47,28 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "catchtable.net",
+        "tripadvisor.com",
+        "lovejejus.tistory.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 93780,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "어떤 스타일로 드릴까요? 홍대권(홍대입구·상수·합정·연남) 중 선호 구역, 인원(몇 명), 예산(1인 대략), 대기 가능 시간, 술 동반 여부(와인바/이자카야 등) 알려주시면 2026-08-13 기준 최신 데이터로 맞춤 Top 10을 뽑아드릴게요.\n\n바로 참고할 수 있는 두 가지 순위 예시(요약)\n- 요즘 분위기/로컬 트렌드 TOP 5\n  1) 흠식당(Yeonnam/Hongdae) – 미쉐린 트레이닝 셰프의 합리적 코스와 160+ 와인\n  2) tas. – 내추럴 와인과 소규모 페어링\n  3) 마녀주방 홍대점 – 가족·친구 모임에 쉬운 캐주얼 이탈리안\n  4) 아소토(합정) – 코지한 이자카야\n  5) 몽중식(연남) – 테마형 모던 중식 코스\n  근거: 캐치테이블 홍대 트렌드/차트 기사, 2026년 최근 업데이트. ([catchtable.net](https://www.catchtable.net/discovery/koreas-trending-restaurants-in-hongdae-seoul-with-catchtable-global-data.html))\n\n- 여행자 평점 TOP 5\n  1) 구스토 타코(Gusto Taco) – 멕시칸\n  2) 홍대 닭갈비 – 한식\n  3) 교촌치킨 홍대점 – 치킨\n  4) 스파카나폴리 – 나폴리 피자\n  5) 미쓰족발(본점) – 족발\n  근거: 트립어드바이저 ‘Hongdae Restaurants’ 페이지 상위 노출(정렬 기준: 조회·리뷰·속성 등). ([tripadvisor.com](https://www.tripadvisor.com/Restaurants-g294197-zfn7778638-Seoul.html))\n\n참고로, 홍대는 약속 성격에 따라 구역을 먼저 정하면 실패 확률이 줄어요. 예: 접근성/회전(홍대입구), 조용한 식사·와인(상수), 2차 이동 편의(합정), 카페·산책 연결(연남). ([lovejejus.tistory.com](https://lovejejus.tistory.com/50))\n\n원하시면 한식/고기/일식/라멘/디저트 등 카테고리별로 ‘대기 적음·예약 가능·혼밥 쉬움’ 같은 필터를 걸어 2026-08-13 기준 최종 Top 10 순위를 정리해 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_top",
       "channel_id": "gpt5_no_search",
-      "mentioned": true,
-      "rank": 4,
-      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_top",
-      "channel_id": "claude_opus_search",
-      "mentioned": true,
-      "rank": 2,
-      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5",
-      "sentiment": "positive",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_top",
-      "channel_id": "claude_opus_no_search",
       "mentioned": false,
       "rank": null,
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
+      "latency_ms": 70077,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_top",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_top",
-      "channel_id": "perplexity_sonar",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대(연남·합정·상수 포함) 맛집은 취향 따라 달라서 “절대 순위”는 없지만, 꾸준히 평이 좋은 곳 위주로 주관적 TOP 15를 뽑아봤어요. 대기·영업정보는 변동이 잦으니 방문 전 확인을 추천합니다.\n\n1) 연남서식당 – 소고기(등심·불고기) 숯불 구이. 대기 김. 1인 약 3–5만\n2) 숙달돼지 홍대입구점 – 숙성 삼겹·목살. 직원이 잘 구워줌. 예약/웨이팅 필수. 1인 2–4만+\n3) 윤씨밀방 – 수제 파스타·리조또 가성비. 웨이팅 잦음. 1.2–2만\n4) 칸다소바 홍대 – 마제소바(비빔라멘) 진한 풍미. 1–1.5만\n5) 미분당(연남) – 깔끔한 쌀국수·분짜. 1.2–1.8만\n6) 오레노라멘 홍대 – 돈코츠·매운라멘 인기. 1–1.5만\n7) 돈부리(홍대) – 가츠동·사케동 대표. 1–1.5만\n8) 사모님돈가스(연남) – 두툼한 등심/안심, 바삭. 1.3–1.8만\n9) 림가기(연남) – 사천요리(마라샹궈·탄탄면). 안주로도 좋음. 접시당 2–4만\n10) 다운타우너(연남) – 수제버거·트러플프라이. 1.5–2만\n11) 레이어드(연남) – 스콘·케이크 브런치 카페. 품절 빠름\n12) 테일러커피 3호점(연남) – 콜드브루·크림 모카 시그니처\n13) 노티드(연남) – 도넛·크림빵. 포장 대기 종종 있음\n14) 코다차야(홍대) – 이자카야형 포차, 메뉴 다양. 대기 잦음\n15) 더부스(연남/합정) – 크래프트 맥주+피자로 가볍게 2차\n\n원하시는 분위기(가성비/고급/조용함), 음식 종류(고기·면·한식·디저트·술집), 예산, 대기 가능 여부를 알려주시면 일정/동선에 맞춰 딱 맞는 리스트로 재정렬해 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -213,14 +79,18 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "guide.michelin.com",
+        "autoreserve.com",
+        "diningcode.com",
+        "tabling.co.kr",
+        "socialdancelive.com",
+        "english.visitseoul.net",
+        "cna.purpleo.co.kr"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 88812,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대·합정 일대 한식 맛집 추천 (걸어서 5–15분권)\n\n- 옥동식(합정) – 맑고 깔끔한 돼지곰탕 대표주자. 웨이팅 많아 오픈 타임 노리기 좋아요. 혼밥 O. ([guide.michelin.com](https://guide.michelin.com/sg/en/seoul-capital-area/kr-seoul/restaurant/okdongsik?utm_source=openai))\n- 서교난면방(합정/서교) – 미쉐린 빕 구르망 선정 난면 전문. 담백한 국물·탄력 있는 면이 강점. 혼밥 O. ([guide.michelin.com](https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/seokyonanmyunbang?utm_source=openai))\n- 일편등심 홍대본점 – 1++ 한우 중심의 숯불구이. 저녁 피크는 예약 추천. ([autoreserve.com](https://autoreserve.com/ko/restaurants/vcRqZhq2GxdsVzhi1UPR?utm_source=openai))\n- 고기꾼 김춘배 홍대본점 – 숙성 한돈/한우를 숯불에 정갈하게 구워주는 곳. 단체모임도 편함. ([diningcode.com](https://www.diningcode.com/profile.php?rid=qZqoXfPnxL8Y&utm_source=openai))\n- 우물집 홍대점 – 솥밥과 한국식 전골(나베)로 든든하게 한상 차려먹기 좋음. 브레이크타임 15:00–17:00 표기. ([tabling.co.kr](https://www.tabling.co.kr/place/677cd4a066de5f06988dbf56?utm_source=openai))\n- 더기와 합정점 – 전·육회·정식 등 한식 안주를 세련되게 내는 주점 겸 식당. 런치 한상도 인기. ([socialdancelive.com](https://www.socialdancelive.com/landing/deogiwa-habjeongjeom?utm_source=openai))\n- 청기와타운 홍대점 – 직원이 구워주는 수원식 왕갈비/LA갈비. 가족·여럿이 가기 좋고 좌석 넉넉. ([english.visitseoul.net](https://english.visitseoul.net/restaurants/BlueRoofTownHongdaeBranch/ENPn88gm7?utm_source=openai))\n- 도마 홍대본점 – 숯불 향 살린 소·돼지구이로 유명한 캐주얼 고깃집. 늦은 시간까지 영업. ([cna.purpleo.co.kr](https://cna.purpleo.co.kr/view/60043?utm_source=openai))\n\n원하시는 스타일(국·면/고기/한정식/술안주), 예산, 인원(혼밥·2인·단체) 알려주시면 동선까지 맞춘 코스로 더 촘촘히 골라드릴게요. 예약 링크나 지도 핀도 필요하시면 말해 주세요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -231,78 +101,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 69014,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_korean",
-      "channel_id": "claude_opus_search",
-      "mentioned": true,
-      "rank": 4,
-      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_korean",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_korean",
-      "channel_id": "gemini_search",
-      "mentioned": true,
-      "rank": 1,
-      "context": "홍대 근처 추천 맛집입니다:\n1. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4",
-      "sentiment": "positive",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_korean",
-      "channel_id": "perplexity_sonar",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "좋아요! 홍대입구–연남동–상수–합정 일대에서 믿고 가는 한식 맛집들을 카테고리별로 추렸어요. 분위기/예산/웨이팅 팁도 함께 적었습니다.\n\n고기구이\n- 숙성도 연남 본점(제주 흑돼지)\n  - 포인트: 숙성 목살·오겹살을 숯불에. 멜젓+김치구이 조합 최고\n  - 예산: 1인 3~5만\n  - 팁: 예약 필수급(피크 시간 웨이팅 김). 연남동 쪽, 홍대입구역 3번 출구에서 도보권\n\n- 연남서서갈비(서서 먹는 양념소갈비)\n  - 포인트: 빠르게 구워 먹는 달큰한 양념소갈비, 회전 빠름\n  - 예산: 1인 2~3만\n  - 팁: 예약 불가, 대기 자주 있음. 옷에 냄새 베니 가벼운 복장 추천. 연남동\n\n- 숙달돼지(상수/합정 일대 지점)\n  - 포인트: 숙성 돼지고기 전문, 굽기 케어가 좋아 초심자도 실패 적음\n  - 예산: 1인 3~4만\n  - 팁: 지점 여러 곳이니 지도에서 가장 가까운 곳 확인, 저녁 피크 대기\n\n찌개·탕·백반\n- 한옥집 김치찌개(홍대/상수)\n  - 포인트: 큼직한 돼지고기+묵은지 김치찌개, 공깃밥/계란찜과 찰떡\n  - 예산: 1인 1~1.5만\n  - 팁: 회전 빠르고 혼밥도 편함. 점심 피크 대기 약간\n\n- 대발이네 김치찜(상수)\n  - 포인트: 자작하게 졸인 매콤 김치찜+주먹밥/비빔면 추가가 인기\n  - 예산: 1인 1.5~2만\n  - 팁: 살짝 맵단짠. 저녁에 대기 있음\n\n- 진대감(합정)\n  - 포인트: 차돌박이, 차돌된장·곱창전골 등 고기+찌개 조합\n  - 예산: 1인 2.5~4만\n  - 팁: 술안주 좋음. 저녁 예약 추천\n\n한식 다이닝/모던 한식\n- 사일락(연남)\n  - 포인트: 제철 재료로 구성한 모던 한식 코스\n  - 예산: 1인 4~8만\n  - 팁: 예약 필수, 기념일·조용한 식사에 좋음\n\n- 계열사(연남)\n  - 포인트: 한식 베이스의 술안주 다이닝(육회, 모둠전, 각종 탕·볶음)\n  - 예산: 1인 2~4만(주류 별도)\n  - 팁: 늦저녁 분위기 좋고 대기 잦음\n\n빠르게 정리해드리면\n- 든든한 식사: 한옥집 김치찌개, 대발이네 김치찜\n- 고기 제대로: 숙성도, 숙달돼지\n- 색다른 경험: 연남서서갈비(서서 먹기), 사일락(코스), 계열사(한식 술상)\n\n원하시는 메뉴(고기/찌개/한정식/해산물), 예산, 대기 가능 여부(줄 서도 OK?), 술자리인지 식사 위주인지 알려주시면 더 딱 맞는 2~3곳으로 좁혀드릴게요. 시간대 알려주시면 웨이팅 피하기 좋은 순서도 짜드릴 수 있어요. 참고로 지점/영업시간은 변동될 수 있으니 방문 전 지도앱으로 최신 정보 확인을 권장합니다."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -313,14 +115,16 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
+        "guide.michelin.com",
+        "english.visitkorea.or.kr",
+        "gajaseoul.com",
+        "tabling.co.kr",
         "siksinhot.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 82796,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대·합정·연남동 일대에서 국밥 제대로 한 그릇 하려면, 이 집들부터 가보세요.\n\n- 옥동식(합정/서교) — 맑고 깔끔한 스타일의 돼지곰탕으로 유명. 미쉐린 가이드 선정 이력, 웨이팅 있음. 영업 11:00–22:00, 브레이크타임 15:00–17:00. ([guide.michelin.com](https://guide.michelin.com/kr/ko/restaurants/doganitang/gomtang/dwaeji-gukbap/memil-guksu/seolleongtang?utm_source=openai))\n\n- 돈수백 홍대직영점(홍대입구역 인근) — 부산식 돼지국밥 대표주자. 돈탕반/섞어탕반 등 선택 폭 넓고 24시간 운영이라 새벽/심야 식사에 최고. 주소: 마포구 홍익로6길 74. ([english.visitkorea.or.kr](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=57599))\n\n- 보승회관 홍대직영점(어울마당로) — 순대국밥·수육이 특화된 24시간 매장. 단체·포장 편하고 접근성 좋아서 무난하게 가기 좋음. 주소: 마포구 어울마당로 131. ([gajaseoul.com](https://gajaseoul.com/en/store/boseung_hoegwan_hongdae_jikyeong))\n\n- 월강부산돼지국밥(연남동) — 잡내 적고 담백한 부산식 돼지국밥 스타일. 영업 10:00–21:00, 일요일 휴무(브레이크 15:00–17:00). 주소: 마포구 동교로 241-1. 웨이팅 상대적으로 덜한 편. ([tabling.co.kr](https://www.tabling.co.kr/place/677cc72066de5f0698741d7c?utm_source=openai))\n\n- 동촌 소머리국밥(연남동) — 오래된 소머리국밥집. 진한 소고기 국물 좋아하면 만족도 높음. ([siksinhot.com](https://www.siksinhot.com/toplists/best/102622_Yeonnam?utm_source=openai))\n\n간단 선택 팁\n- 깔끔·맑은 국물: 옥동식\n- 든든한 부산식 돼지국밥: 돈수백, 월강\n- 순대·수육까지 한상: 보승회관\n- 소고기계 국밥: 동촌 소머리국밥\n\n원하시는 스타일(돼지/순대/소고기), 매운 정도, 방문 시간대(점심/심야) 알려주시면 더 맞춤으로 골라드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -331,78 +135,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 41766,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_gukbap",
-      "channel_id": "claude_opus_search",
-      "mentioned": true,
-      "rank": 3,
-      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_gukbap",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_gukbap",
-      "channel_id": "gemini_search",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_gukbap",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "어떤 스타일의 국밥 좋아해? 돼지국밥/순댓국/설렁탕·곰탕 등 취향 따라 맛집이 조금씩 달라. 일단 홍대·합정·연남·신촌 근처에서 실패 적은 곳들 추천해볼게.\n\n- 합정옥 (합정)\n  - 소고기 국밥/양지탕으로 유명. 맑고 깊은 국물에 얇은 양지 듬뿍.\n  - 팁: 소금·후추·다진 파만 살짝. 수육 추가해서 같이 먹으면 최고.\n\n- 돈수백 홍대점 (홍대입구)\n  - 부산식 돼지국밥 체인 중 깔끔한 편. 맑/탁 선택 가능.\n  - 팁: 새우젓·부추 올려 간 맞추고, 모듬 수육 추가하면 든든.\n\n- 순대실록 연남점 (연남동)\n  - 잡내 적은 깔끔한 순댓국. 다양한 순대(야채/당면/피순대) 고를 수 있어 초보자도 무난.\n  - 팁: 모둠순대+순댓국 조합 추천.\n\n- 송정3대국밥 신촌점 (신촌)\n  - 진한 부산식 돼지국밥. 머릿고기/내장/모둠 선택 가능.\n  - 팁: 김치·부추무침이랑 비벼 먹듯이 한 숟갈씩.\n\n- 마포옥 (공덕 쪽, 홍대에서 2~3정거장)\n  - 소고기 곰탕/양지탕 노포 감성. 담백하고 깊은 맛.\n  - 팁: 밥 말기 전에 국물 맛 먼저 보고 간 맞추기.\n\n- 신의주찹쌀순대 홍대입구점\n  - 접근성 좋고 무난한 순댓국 체인. 깔끔 담백 스타일.\n  - 팁: 들깨가루 조금 넣으면 고소함 업.\n\n참고 팁\n- 피크타임(주말 점심·저녁)은 웨이팅 있을 수 있어. 가능하면 오픈~12시, 혹은 14~17시대가 비교적 한가함.\n- 돼지국밥은 새우젓·후추·부추로 간을 본인 취향에 맞추는 게 포인트.\n- 혼밥하기 편한 곳이 많아 1인 방문도 부담 없음.\n\n원하는 스타일(돼지/순대/설렁탕·곰탕) 알려주면 거기 맞춰 2~3곳으로 더 추려서 동선까지 딱 맞게 잡아줄게."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -413,14 +149,15 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "english.visitkorea.or.kr",
+        "gajaseoul.com",
+        "okdongsik.net",
+        "guide.michelin.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 114187,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "Here are solid, easy-to-find gukbap spots within or just next to Hongdae:\n\n- Donsoobaek (돈수백) – Hongdae main branch\n  - What: Busan-style pork gukbap with optional suyuk (boiled pork) set; great late-night stop.\n  - Hours/address: 24 hours daily, except Sun 9:00 pm–Mon 9:00 am; 74, Hongik‑ro 6‑gil, Mapo‑gu. About 2–3 minutes from Hongik Univ. Station (Exit 8). ([english.visitkorea.or.kr](https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=352&vcontsId=57599&utm_source=openai))\n\n- Boseung Hoegwan (보승회관) – Hongdae direct branch\n  - What: Classic gukbap specialist (sundae/naejang/pork), roomy, good for groups or a quick solo meal.\n  - Hours/address: Open 24 hours; 131 Eoulmadang‑ro, Mapo‑gu, ~100 m from Hongik Univ. Station. ([gajaseoul.com](https://gajaseoul.com/ko/store/boseung_hoegwan_hongdae_jikyeong?utm_source=openai))\n\n- Okdongsik (옥동식) – Hapjeong/Seogyo, short walk from Hongdae\n  - What: Michelin‑recognized clear pork “gomtang” style; very clean, delicate broth.\n  - Hours/address: Open daily; Mon–Fri 11:00–21:30 (break 15:00–17:00), Sat–Sun 11:00–20:30 (break 15:00–17:00); 44‑10 Yanghwa‑ro 7‑gil, Mapo‑gu. Expect a line at peak times. ([okdongsik.net](https://www.okdongsik.net/seoul))\n\n- Hapjeongok (합정옥) – Hapjeong (one stop from Hongdae)\n  - What: Beef gomtang (if you prefer beef over pork); long‑running, Michelin‑selected.\n  - Address: 2F, 21 Yanghwa‑ro 1‑gil, Mapo‑gu, near Hapjeong Station. ([guide.michelin.com](https://guide.michelin.com/us/en/seoul-capital-area/kr-seoul/restaurant/hapjeongok?utm_source=openai))\n\nQuick tips\n- For pork gukbap, taste the broth first, then season to preference with saeu‑jeot (shrimp salt), chives, and a pinch of chili flakes on the table.\n- If you need true late‑night/24h, Donsoobaek and Boseung Hoegwan are your safest bets in the Hongdae core. ([english.visitkorea.or.kr](https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=352&vcontsId=57599&utm_source=openai))\n\nWant pork, beef, or sundae gukbap—and are you looking for 24‑hour or a sit‑down lunch/dinner? I can tailor the pick and give a simple order in Korean if you’d like."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -431,96 +168,24 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 56984,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_gukbap_en",
-      "channel_id": "claude_opus_search",
-      "mentioned": true,
-      "rank": 2,
-      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5",
-      "sentiment": "positive",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_gukbap_en",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": true,
-      "rank": 4,
-      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_gukbap_en",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_gukbap_en",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "Great area for it. Here are reliable, close-by options around Hongdae (Hongik Univ.) with the style of gukbap they’re best for. Check Naver/Kakao Maps for the latest hours and the closest branch to you.\n\n- Mapo Ok (Gongdeok) – Beef gomtang\n  Classic, clear beef-bone soup with brisket; simple and superb. About 2 subway stops from Hongdae (to Gongdeok). Lines at lunch; go early or off-peak.\n\n- Sinseon Seolleongtang (Sinchon/Hongdae area) – Seolleongtang\n  Big Korean chain known for consistent, mild ox-bone soup and unlimited kkakdugi. Many branches run late or 24h; the Sinchon one is close to Hongdae.\n\n- Ssangdungi Dwaeji Gukbap (Sinchon) – Busan-style pork gukbap\n  Rich pork broth; season it yourself with saeu-jeot (shrimp salt), chives, and chili paste. Hearty and affordable.\n\n- Busan Ajeossi Dwaeji Gukbap (Yeonnam/Hapjeong area) – Pork gukbap\n  Another dependable Busan-style spot with generous portions and banchan. Good if you like a slightly richer, saltier broth.\n\n- Jangin Sundae (Hongdae/Hapjeong area) – Sundae-guk (blood sausage soup)\n  Chain specializing in clean, peppery sundae-guk with lots of meat. Usually open late; great value.\n\n- Mangwon Market eateries (1 stop east to Mangwon)\n  Inside/around the market you’ll find old-school sundae-guk, haejangguk, and gomtang stalls—cheap, fast, very local vibe.\n\nHow to find more right now\n- On Naver/Kakao Maps, search: “홍대 국밥”, “돼지국밥”, “순대국”, “설렁탕”, or “곰탕”.\n- Filter by rating 4.3+ and distance within 1 km; check recent photos for broth style.\n\nOrdering tips\n- “국밥 하나 주세요.” (One gukbap, please.)\n- Less spicy: “덜 매운 걸로 부탁해요.”\n- Extra rice: “공기밥 추가 가능해요?”\n- For pork gukbap, taste first, then season with saeu-jeot and chives.\n\nIf you tell me which style you want (pork, sundae, or beef) and your time/budget, I can narrow it to the best 1–2 picks within walking distance of your spot."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_date",
       "channel_id": "gpt5_search",
-      "mentioned": true,
-      "rank": 2,
-      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5",
-      "sentiment": "positive",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
+      "sentiment": "neutral",
+      "sources_used": [],
+      "latency_ms": 40937,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "좋아요! 몇 가지만 알려주시면 딱 맞는 “홍대 데이트 저녁 코스용” 식당을 골라드릴게요.\n\n- 분위기: 조용하고 아늑한 vs. 활기찬/트렌디 vs. 뷰·테라스\n- 음식 취향: 한식/이탈리안/스시·해산물/아시안(태국·베트남)/스테이크·그릴 중 무엇이 좋나요?\n- 예산(1인): 대략 얼마 정도 생각하세요? (예: 2–3만/3–5만/5–8만/8만+)\n- 주류: 와인/칵테일 함께 가능한 곳이 좋나요? 무알코올 선호하나요?\n- 위치 범위: 홍대입구역 중심 vs. 합정·상수 vs. 연남동까지 OK?\n- 날짜·시간: 언제 가실 예정인가요? (요일/대략 시간) 웨이팅 가능한가요, 반드시 예약 원하시나요?\n\n답 주시면 최신 영업정보 기준으로 2–3곳과 이동 동선(식사 → 디저트/바)까지 깔끔하게 코스로 묶어 추천드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -531,78 +196,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 72296,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_date",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_date",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_date",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_date",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "분위기 좋은 홍대·연남·합정 라인 저녁 식당 추천\n\n- 쿠촐로 오스테리아(연남)\n  - 수제 파스타/안티파스토와 와인에 강한 오스테리아. 조도 낮고 아늑해 데이트 무드 좋아요.\n  - 예산: 1인 약 3–6만(와인 별도)\n  - 팁: 주말은 1–2주 전 예약 권장.\n\n- 도마 연남\n  - 드라이에이징 스테이크로 유명. 고기 나눠먹기 좋아 커플 만족도 높아요.\n  - 예산: 1인 약 4–7만(와인 별도)\n  - 팁: 인기 많은 시간대는 예약 필수.\n\n- 스시마쯔(연남)\n  - 바 좌석 중심의 스시 오마카세. 조용하고 집중되는 분위기.\n  - 예산(디너): 1인 약 7–12만\n  - 팁: 기념일에 특히 좋아요. 예약 필수.\n\n- 쑤아(연남, 태국음식)\n  - 현지 스타일 커리/팟타이/해물 요리. 채식 옵션 일부 가능, 색감도 예뻐 사진 잘 나와요.\n  - 예산: 1인 약 2–4만\n  - 팁: 피크타임 웨이팅 있음. 오픈런 혹은 예약 권장.\n\n- 구스토 타코(상수·합정 사이)\n  - 수제 토르티야 타코와 퀘소딥이 시그니처. 캐주얼하지만 만족감 높은 곳.\n  - 예산: 1인 약 1.5–3만\n  - 팁: 회전 빠르지만 주말 저녁 대기 있음.\n\n- 모터시티 합정\n  - 디트로이트 스타일 두툼한 피자. 맥주 곁들이기 좋아요.\n  - 예산: 1인 약 2–3만\n  - 팁: 2–3가지 시켜서 나눠 먹기 추천. 비교적 소란스러울 수 있어요.\n\n- 테이스팅룸 합정\n  - 파스타/리조또/플랫브레드 등 무난하면서 실패 없는 선택. 와인 리스트도 편해요.\n  - 예산: 1인 약 2.5–4만\n  - 팁: 예약 비교적 수월, 데이트 초반에 부담 적음.\n\n- 연남서식당(연남, LA갈비)\n  - 달큰한 LA갈비로 유명한 고깃집. 캐주얼하지만 분위기 있는 편.\n  - 예산: 1인 약 2.5–4만\n  - 팁: 피크타임 웨이팅 잦음. 옷에 냄새 배는 편이니 참고.\n\n기본 팁\n- 데이트라면 창가/바 좌석 요청해 보세요. 조도와 동선 때문에 체감 분위기가 꽤 달라집니다.\n- 홍대·연남은 주말 대기가 잦아요. 원하는 시간 확정이면 예약 가능한 곳 우선으로 잡는 걸 추천합니다.\n- 식사 후 산책: 경의선숲길(연트럴파크) 쪽으로 이동하면 디저트 카페/와인바 선택지도 많아요.\n\n원하시는 분위기(로맨틱/캐주얼), 음식 종류, 예산대, 술 여부, 방문 요일·시간을 알려주시면 2–3곳으로 더 정확히 추려드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -613,14 +210,15 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "guide.michelin.com",
+        "autoreserve.com",
+        "diningcode.com",
+        "timeoutkorea.kr"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 124094,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "취향·예산 안 알려주셔서, 홍대입구/합정 도보 5–10분 내 혼밥 친화(바 좌석·1인 메뉴·키오스크) 위주로 골라드렸어요.\n\n- 옥동식(서교/합정 인근) – 맑고 담백한 돼지곰탕 하나로 승부하는 집. 미쉐린 가이드 선정으로 기본기 확실, 혼밥 손님도 많아 편합니다. ([guide.michelin.com](https://guide.michelin.com/sg/en/seoul-capital-area/kr-seoul/restaurant/okdongsik?utm_source=openai))\n- 혼고집 홍대 – 1인 전용 그릴이 있는 ‘퍼스널 K‑BBQ’. 세트로 150g부터 주문 가능해 혼자서도 굽기 좋아요. 영업을 점심/저녁 타임으로 나누어 운영하는 점 참고. ([autoreserve.com](https://autoreserve.com/en/restaurants/TVmqZnimjKysjV5WjWmh?utm_source=openai))\n- 지로우 라멘(홍대 정문 근처) – 바 좌석 중심의 작은 라멘바. 진한 돈코츠와 매콤한 탄탄계열(‘폭탄’)이 대표라 빠르게 한 그릇 하기 좋아요. ([diningcode.com](https://www.diningcode.com/profile.php?rid=FBnGPdWhe5Rs&utm_source=openai))\n- 에도마에 텐동 하마다 홍대점 – 텐동(튀김덮밥) 전문. 중앙 바 테이블 있어 혼자 앉기 편하고, 텐동+우동/소바 세트도 무난합니다. ([diningcode.com](https://www.diningcode.com/profile.php?rid=sJuzHnmR3Fl6&utm_source=openai))\n- 그녀의밥상(홍대입구–홍대 정문 사이) – 집밥 스타일 백반 전문. 1인 한 상 차림에 셀프 반찬 리필이 가능한 가성비 코스로 부담 없습니다. ([diningcode.com](https://www.diningcode.com/profilemap?rid=VioftwUW1nO9&utm_source=openai))\n- 조폭떡볶이(상상마당 근처) – 홍대 대표 분식 클래식. 늦은 시간까지 운영해 야식·간단 혼밥으로 좋습니다. ([timeoutkorea.kr](https://www.timeoutkorea.kr/seoul/ko/restaurants/%EC%A1%B0%ED%8F%AD%EB%96%A1%EB%B3%B6%EC%9D%B4?utm_source=openai))\n\n원하시면 지도링크/길찾기, 대표 메뉴·가격대(예: 1만~1만5천원대/그 이상)까지 맞춰 드릴게요. \n몇 가지만 알려주세요:\n- 예산(1인 기준)과 먹고 싶은 종류(한식/라멘/분식/고기)\n- 매운맛 괜찮은지\n- 웨이팅 가능 시간(없음/10분/30분 이상)"
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -631,78 +229,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 59921,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_solo",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_solo",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_solo",
-      "channel_id": "gemini_search",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_solo",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "취향별로 홍대/연남·합정 인근 혼밥 쉬운 곳 추천드릴게요. 방문 전 영업시간은 한 번만 확인하세요.\n\n일본식 카운터/라멘\n- 하카타분코(연남): 진한 돈코츠 라멘, 바 좌석 위주, 늦게까지 영업. 혼밥 대표격.\n- 멘야 산다이메 홍대: 클래식 돈코츠/쇼유 라멘, 1인 좌석 편함.\n- 규카츠 모토무라 홍대: 규카츠 1인 세트로 깔끔하게 먹기 좋아요.\n\n한식·국물류(편하고 든든)\n- 신선설농탕(홍대/합정 인근): 설렁탕·도가니탕 등 1인 한 그릇, 늦은 시간에도 편안.\n- 본죽&비빔밥카페 홍대입구역점: 부담 없고 빨리 먹기 좋아요.\n- 북촌손만두 홍대점: 만두·칼국수 1인 한 그릇, 회전 빠름.\n\n빠르고 가볍게\n- 아비꼬 카레 홍대: 매운맛·토핑 커스터마이즈, 혼밥 최적.\n- 코코이치방야 홍대: 일본식 카레, 토핑 고르기 쉬움.\n- 에머이 홍대: 쌀국수·분짜 등 가벼운 한 끼.\n\n초밥/버거\n- 스시로 AK&홍대: 회전초밥이라 1인 식사 편하고 선택 폭 넓음.\n- 아이엠어버거 홍대: 바 좌석 가능, 혼자 햄버거 먹기 수월.\n\n우동/면\n- 우동 카덴(연남): 따끈한 우동, 카운터 위주라 혼밥 친화적.\n- 돈카2014(연남): 일본식 돈카츠 전문, 1인 셋업 깔끔.\n\n비건·가벼운 식사\n- 더브레드블루(신촌/연남 사이): 비건 베이커리, 샌드위치·빵으로 가볍게.\n\n늦은 시간에 특히 편한 곳\n- 하카타분코(라멘), 신선설농탕(설렁탕), 엽기떡볶이 홍대점(분식 포장/매장)\n\n원하는 분위기(조용/활기), 예산, 먹고 싶은 종류(국물/라멘/한식/카레/초밥) 알려주시면 2~3곳으로 더 좁혀 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -713,14 +243,16 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
+        "koreatriptips.com",
+        "diningcode.com",
+        "tabling.co.kr",
+        "lottehotel.com",
         "siksinhot.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 126858,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "몇 명, 예산, 주류/프라이빗 룸 여부에 따라 달라지지만, 홍대·합정권에서 단체 회식하기 좋은 곳을 빠르게 추려드리면:\n\n- 현래장(마포역·홍대 인근) – 60년 넘은 대형 중식 노포. 홀+다양한 크기의 단독 룸(2–100인)과 약 280석 규모라 대규모 회식도 수월. 주차 지원 있는 점도 장점. 사전에 룸 예약 권장. ([koreatriptips.com](https://www.koreatriptips.com/dining/2915002.html?utm_source=openai))\n- 삿뽀로 홍대점(홍대입구) – 전 좌석 프라이빗 룸 구성의 일식 코스 다이닝. 상견례·접대·조용한 회식에 적합, 네이버/전화 예약 다수. 브레이크타임(대체로 15:00–17:00) 유의. ([diningcode.com](https://www.diningcode.com/profile.php?rid=mWER5rzMD4S0&utm_source=openai))\n- 경복궁 서교점(홍대입구) – 한식 코스/숯불구이 기반, 룸 보유. 상견례·회식 후기가 많아 단체 운영 동선이 안정적. 예약 필수. ([tabling.co.kr](https://www.tabling.co.kr/place/677cc71f66de5f0698741b40?utm_source=openai))\n- 더플레이스 홍대 L7점(호텔 L7 홍대 21F) – 전망 좋은 이탈리안. 단체 테이블 배치 가능, 호텔 내 주차 편리. 뷰·분위기 중시 회식에 추천. ([lottehotel.com](https://www.lottehotel.com/prerendered/hongdae-l7/ko/dining/index.html?utm_source=openai))\n- 따롱이 훠궈 홍대점 – 단체석/대관 옵션 표기된 훠궈 전문. 마라/토마토탕 등 취향 나뉠 때 반반탕 구성으로 주문하기 쉬움. 테이블링으로 대기·원격줄서기 가능. ([tabling.co.kr](https://www.tabling.co.kr/restaurant/9481))\n- 목로관(홍대) – 고기 위주(돈마호크·우대갈비 등)로 단체석·룸 좌석 보유, 캐주얼 회식에 무난. 사전 예약 권장. ([diningcode.com](https://www.diningcode.com/profile.php?rid=1RyCbzJzNtJv&utm_source=openai))\n\n빠르게 잡는 요령\n- 인원·예산 확정 전: 룸 보유 여부, 최소/최대 수용 인원, 코스/세트 유무만 먼저 확인해 가예약 잡기.\n- 주차·대중교통: 호텔/대형 중식당은 주차가 비교적 편하고, 그 외엔 홍대입구역 도보 접근이 대체로 수월합니다. ([siksinhot.com](https://www.siksinhot.com/P/1558913?utm_source=openai))\n- 예약 팁: 인기 시간대(평일 18:30–19:30, 주말 저녁)는 룸이 일찍 마감되니 가능한 시간대를 두 개 제시해 문의하세요.\n\n원하시면 인원(예: 8명/16명/30명), 1인 예산(대략), 주류 여부(와인/전통주/소주·맥주), 분위기(조용/캐주얼), 날짜·시간을 알려주세요. 조건에 맞춰 위 후보 중 가예약 가능한 곳으로 바로 좁혀 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -731,78 +263,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 90187,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_group",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_group",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_group",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_group",
-      "channel_id": "perplexity_sonar",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "몇 명, 예산, 음식/술 취향(고기·해산물·샤브·양식 등), 룸 필요 여부를 알려주시면 딱 맞게 추려드릴게요. 우선 홍대·합정·상수 일대에서 단체 회식으로 반응 좋은 곳들 추천드립니다(지점/운영 변동이 있을 수 있으니 방문 전 전화 예약 권장).\n\n격식 있는 한식/고기(룸 보유, 접대·팀만의 자리 원할 때)\n- 한와담 합정점(메세나폴리스): 한우·한식 코스, 룸 다수. 8~20명 회식에 안정적.\n- 도쿄등심 홍대/합정: 스테이크·샤브, 독립룸/파티션 좌석. 예산 여유 있을 때.\n- 송추가마골 합정점(메세나폴리스): 갈비·냉면 세트, 단체석/룸 보유. 무난하고 실패 적음.\n\n캐주얼 고기/곱창(가성비·분위기, 소주 회식)\n- 팔색삼겹살 홍대점: 다양한 맛 삼겹 세트, 단체 자리 운영 경험 많음.\n- 교대이층집 홍대점: 목살·가브리살 전문, 사이드 구성 좋아 회식 만족도 높음.\n- 연남옥(연남동): 차돌박이 전골/불고기 전골, 큰 테이블로 6~20명 받기 편함.\n\n샤브/훠궈(공유식, 채식 옵션·취향 다양할 때)\n- 하이디라오 홍대점(AK& 홍대권): 대형 매장, 취향 맞추기 쉬워 단체에 강점.\n- 채선당/샤브향 홍대권: 샤브 뷔페/코스, 예산 부담 낮고 단체 수용 용이.\n\n해산물/한식·보쌈\n- 사계진미 홍대점: 간장게장·회 중심(지점별 구성 상이), 해산물 좋아하는 팀에 인기.\n- 원할머니보쌈·족발(홍대입구역 인근 지점): 무난·가성비, 대형 테이블 많음.\n\n펍/2차(자릿수 넉넉, 시끌벅적 OK)\n- 칼리가리박사(홍대): 크래프트 맥주, 긴 테이블로 8~15명 2차에 적합.\n- 대형 호프/펍은 합정 메세나폴리스·홍대 AK& 몰 내 매장들이 단체 수용 편함.\n\n예약 팁\n- 10명 이상이면 룸/대형 테이블 홀딩 가능한지 먼저 문의(날짜·시간·인원·예산·개별결제 여부).\n- 피크(18:30~20:00)는 코스/세트 미리 정하면 서빙이 빨라집니다.\n- 소음/프라이버시 중요하면 홍대 메인보다 합정·상수·연남 쪽이 안정적.\n\n원하시면\n- 인원(총 몇 명/남녀 비율 대략), 1인 예산, 선호 메뉴/술, 날짜·시간, 룸 필요 여부, 1·2차 여부를 알려주세요. 조건에 맞춰 3곳으로 압축해 드리고, 연락용 예약 멘트도 만들어 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -813,114 +277,43 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "gajaseoul.com",
+        "siksinhot.com",
+        "diningcode.com",
+        "pandarank.net"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 122906,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "좋아요! 홍대/연남 라인에서 “가성비 좋게 한 끼”로 반응 좋은 곳들부터 추려 드릴게요.\n\n- 우동가조쿠 홍대점: 당일 제면 사누키 우동. 기본 우동이 1만 원 안팎, 혼밥 편하고 11:00 오픈. ([gajaseoul.com](https://gajaseoul.com/ko/store/udonggajoku_hongdae?utm_source=openai))\n- 윤씨밀방(상수 쪽): 함박스테이크·파스타로 오래 사랑받는 로컬 맛집. 웨이팅 있는 편이지만 “가격 대비 만족” 평이 많아요. ([siksinhot.com](https://www.siksinhot.com/P/314586?utm_source=openai))\n- 고집(홍대입구): 연탄구이 백반(돼지/고등어)과 찌개로 든든한 집밥 스타일. 혼밥도 무난. ([siksinhot.com](https://www.siksinhot.com/P/404154?utm_source=openai))\n- 리틀파파포 연남점: 쌀국수·분짜·반쎄오 등 베트남식 한 끼로 인기, 홍대입구역 인근. ([diningcode.com](https://www.diningcode.com/profile.php?rid=VHLP6iKxhSY6&utm_source=openai))\n- 봉림대패 홍대점: 대패삼겹 1인분 6,900원대, 셀프바 구성으로 가격 메리트 큼. 늦게까지 영업. ([pandarank.net](https://pandarank.net/contents/6927fb1b2293c45485fb9fe9?utm_source=openai))\n- 가미우동 서교점: 깔끔한 우동과 튀김 조합, 캐주얼하게 저렴한 한 끼. ([diningcode.com](https://www.diningcode.com/profile.php?rid=kHHtqF5zGLCW&utm_source=openai))\n\n빠르게 고르실 수 있게 간단 팁\n- 웨이팅 피하려면 점심 11:30 이전, 저녁 17:30 전후 추천.\n- 고기/볶음류는 2인 이상이 가격 대비 더 유리한 경우가 많고, 면/덮밥은 1인 식사 최적.\n\n취향 알려주시면 더 촘촘히 골라드릴게요.\n- 한식/면/덮밥/고기 중 뭐 땡기세요?\n- 1인 기준 예산(만원 초반·중반·후반)과 식사 시간대(점심·저녁)는요?"
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_cheap",
       "channel_id": "gpt5_no_search",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_cheap",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_cheap",
-      "channel_id": "claude_opus_no_search",
       "mentioned": false,
       "rank": null,
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
+      "latency_ms": 62766,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_cheap",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_cheap",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대·연남·합정 근처에서 가성비 좋은 밥집 추천이에요. 1만원대 초반(±) 위주로 골랐어요.\n\n- 홍대개미 본점(홍대입구역)\n  - 메뉴: 스테이크 덮밥, 차돌박이 덮밥\n  - 가격: 1.1–1.4만\n  - 포인트: 불맛 나는 고기+밥 조합, 든든함 대비 가격 괜찮음\n\n- 홍대 돈부리(홍대거리)\n  - 메뉴: 규동, 가츠동, 가라아게동\n  - 가격: 0.9–1.3만\n  - 포인트: 혼밥 친화, 회전 빠름\n\n- 오복함박 홍대점(홍대/상수 사이)\n  - 메뉴: 함박스테이크 세트\n  - 가격: 1.0–1.3만\n  - 포인트: 촉촉한 패티+소스, 가격대비 만족도 높음\n\n- 미분당 연남/홍대입구\n  - 메뉴: 쌀국수, 분짜\n  - 가격: 0.9–1.3만\n  - 포인트: 진한 육수, 깔끔한 한끼로 좋아요\n\n- 연남토마(연남동)\n  - 메뉴: 일본식 카레(돈카츠/새우 토핑)\n  - 가격: 0.9–1.2만\n  - 포인트: 꾸덕한 카레에 토핑 푸짐, 점심 웨이팅 잦음\n\n- 멘야산다이메(홍대/상수)\n  - 메뉴: 돈코츠 라멘, 특제라멘\n  - 가격: 0.9–1.1만\n  - 포인트: 진한 라멘을 이 가격에, 혼밥 최적\n\n- 현대옥 홍대입구역점\n  - 메뉴: 콩나물국밥, 소고기국밥\n  - 가격: 0.8–0.9만\n  - 포인트: 가볍게/해장용으로 최고, 빠르게 먹기 좋음\n\n- 육수당 홍대입구\n  - 메뉴: 곰탕, 우육면 스타일 국물\n  - 가격: 0.8–1.0만\n  - 포인트: 국물 퀄리티 대비 가격 선방, 밥 말아 든든\n\n- 아비꼬 카레 홍대\n  - 메뉴: 매운맛/토핑 선택 카레\n  - 가격: 0.9–1.3만\n  - 포인트: 취향대로 커스터마이즈, 양 조절 가능\n\n- 라화쿵부 마라탕 홍대\n  - 메뉴: 마라탕/마라샹궈(그램 단가)\n  - 가격: 1인 보통 0.9–1.3만\n  - 포인트: 채소·면 듬뿍 담아도 1만원대 초반으로 해결\n\n- 남도분식 연남\n  - 메뉴: 떡볶이, 김밥, 비빔국수\n  - 가격: 0.5–0.9만\n  - 포인트: 깔끔한 분식 퀄리티, 가볍게 한 끼\n\n- 두끼 떡볶이 홍대입구\n  - 메뉴: 즉석 떡볶이 뷔페\n  - 가격: 1.1–1.3만\n  - 포인트: 무한리필 구성 대비 가성비 탄탄, 친구들이랑 가볍게\n\n팁\n- 웨이팅 피하려면 주말 11:30 이전/평일 18:00 이전 방문 추천.\n- 브레이크타임(대체로 15:00–17:00) 있는 곳 꽤 있으니 방문 전 네이버/구글 영업시간 확인하세요.\n- 혼밥이면 홍대돈부리/멘야산다이메/현대옥, 두 명 이상이면 홍대개미/연남토마가 편해요.\n\n원하시면 예산(예: 1만원 이하/1.5만원 이하), 먹고 싶은 종류(한식/라멘/덮밥/분식), 인원수 알려주시면 더 딱 맞게 골라드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_late",
       "channel_id": "gpt5_search",
-      "mentioned": true,
-      "rank": 3,
-      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
       "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "sources_used": [],
+      "latency_ms": 17469,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "어떤 종류 드실까요? 몇 가지만 알려주시면 지금 영업시간까지 바로 확인해서 추천드릴게요.\n- 음식 취향: 한식/라멘/이자카야/치킨/곱창·막창/버거 등\n- “늦게”가 몇 시쯤인가요? 새벽 1–2시? 3–4시? 24시간?\n- 술 드실 계획 있으세요?\n- 홍대입구역/연남/상수·합정 중 선호 지역 있나요?\n- 1인·2인·여럿 중 몇 분이신가요? 웨이팅 가능 여부도 알려주세요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -931,78 +324,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 41312,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_late",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_late",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_late",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_late",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "몇 시까지 여는 곳을 찾으세요? 메뉴(고기/해장/라멘/포차 등)랑 예산도 알려주시면 딱 맞게 골라드릴게요. 우선 홍대·상수·합정 근처에서 늦게까지 자주 여는 곳들 예시예요(요일·시즌별 변동 많으니 방문 전 지도/전화로 확인 권장).\n\n- 하카타분코(상수역 근처): 진한 돈코츠 라멘. 대체로 새벽까지 영업.\n- 한신포차 홍대/상수점: 포차 안주(닭발, 오뎅탕 등). 보통 새벽 4–6시대까지.\n- 홍곱창 홍대본점: 곱창·막창. 대체로 새벽 2–3시.\n- 멘야산다이메 홍대: 라멘. 보통 자정~새벽 1–2시.\n- 치킨 체인(교촌/BBQ 등) 홍대입구역·상수 인근 지점: 매장/포장/배달 위주로 새벽까지 운영하는 곳 다수.\n- 양평해장국/24시 감자탕 집(합정·상수 주변에 다수): 일부 24시간 혹은 아주 늦게까지.\n- 홍대 포차 거리(어울마당로·와우산로 주변): 실내포차/길거리포차, 보통 새벽 2–4시.\n\n빠르게 찾는 팁\n- 네이버지도에서 “홍대 [먹고 싶은 메뉴]” 검색 → 필터에서 “영업중” 체크, 리뷰에 ‘새벽’ 키워드 확인.\n- 지금 계신 위치(역 출구)와 원하는 마감 시간 알려주시면, 도보 10분 내 2–3곳으로 압축해드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1013,14 +338,16 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "guide.michelin.com",
+        "kookje.co.kr",
+        "tripadvisor.co.kr",
+        "gajaseoul.com",
+        "english.visitseoul.net"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 180155,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "좋아요! 관광객 덜하고 “홍대 생활권(홍대입구·상수·합정·연남)”에서 현지인들이 자주 가는 곳만 추려볼게요. 우선 5곳만 콕 집어 드릴게요.\n\n- 옥동식(합정) — 맑고 담백한 돼지곰탕 한 그릇으로 끝내는 집. 점심·저녁 줄 서는 편이라 오픈 타임이나 애매한 시간대 추천. 미쉐린 가이드 비브 구르망 선정. ([guide.michelin.com](https://guide.michelin.com/sg/en/seoul-capital-area/kr-seoul/restaurant/okdongsik?utm_source=openai))\n- 마산족발(서교동) — 40년 노포 감성의 앞다리 족발로 유명한 서교동 대표 족발집. “수요미식회”에도 소개된 곳이라 로컬 손님+단골 비율 높아요. ([kookje.co.kr](https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20171123.99099011076&utm_source=openai))\n- 연남서식당(일명 서서갈비, 연남) — 서서 먹는 갈비로 유명한 스탠딩 바비큐. 기름기 적당한 한우 갈비를 빠르게 구워 먹고 퇴장하는 ‘로컬 템포’가 매력. 웨이팅 대비 회전 빠른 편. ([tripadvisor.co.kr](https://www.tripadvisor.co.kr/Restaurant_Review-g294197-d2228910-Reviews-Yeonnamseo_Sikdang-Seoul.html?utm_source=openai))\n- 우동가조쿠 홍대점(홍대입구) — 직접 뽑은 면과 깔끔한 국물로 혼밥·가성비 모두 만족. 비 오는 날 특히 줄 서요. ([gajaseoul.com](https://gajaseoul.com/ko/store/udonggajoku_hongdae?utm_source=openai))\n- 삼거리포차(상수) — 홍대/상수 로컬들이 술 한잔하러 가는 클래식한 포차. 매콤한 안주와 소주 페어링 좋아요. ([english.visitseoul.net](https://english.visitseoul.net/attractions/Samgeoli-Pocha-E_/11054?utm_source=openai))\n\n원하시면 더 맞춤 추천해 드릴게요. 아래 중에 골라 알려주세요.\n- 뭐 드실래요? 고기/국물/분식/면/해산물/디저트/술집\n- 예산대는? 1인 기준 대략\n- 웨이팅 감내 시간? 0분/30분/1시간+\n- 혼밥인지, 데이트/모임인지\n- 홍대 핵심(홍대입구역 주변) vs. 연남/상수/합정(조금 더 로컬 분위기) 선호 여부"
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1031,96 +358,32 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 111671,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_local_pick",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_local_pick",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_local_pick",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_local_pick",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대 핵심(홍대입구–연남동–상수–합정)에서 로컬들이 실제로 많이 가는 맛집들만 추렸어요. 웨이팅 긴 곳은 시간 팁도 함께 적었습니다.\n\n- 연남서서갈비(연남동, 숯불갈비)\n  생갈비를 바로 숯불에 구워주는 집. 밥+된장까지 깔끔. 저녁 웨이팅 김 → 오픈 직후 or 20시 이후 추천.\n  1인 예산: 2–3만 원대\n\n- 합정옥(합정, 설렁탕·수육)\n  지역 주민들이 해장·아침식사로 많이 가는 곳. 맑고 깊은 국물, 얇썰 수육이 별미.\n  1인 예산: 1–1.8만 원대\n\n- 홍대돈부리(홍대입구, 덮밥)\n  학생·직장인들 줄 서서 먹는 가성비 덮밥 원조급. 카츠돈/규동/사케동이 무난.\n  1인 예산: 1–1.5만 원대\n  팁: 피크(12–13시, 18–20시) 피하면 금방 들어가요.\n\n- 소이연남 본점(연남동, 태국식)\n  로컬도 즐겨가는 진한 소고기 쌀국수와 팟까파오. 웨이팅 필수 → 평일 늦점심 추천.\n  1인 예산: 1.3–1.8만 원대\n\n- 텐동요츠야 연남본점(연남동, 텐동)\n  바자리 중심의 텐동 전문. 튀김과 밥·소스 밸런스 좋음. 기름 냄새 배니 두꺼운 겉옷은 비추.\n  1인 예산: 1.2–1.7만 원대\n\n- 모루식당(연남동, 이자카야/가정식)\n  조용한 골목의 일본 가정식/이자카야. 니쿠자가·가츠니·계절 오뎅 추천.\n  1인 예산: 2–3만 원대\n  팁: 소규모 예약 빨리 마감, 오픈런 유리.\n\n- 육덕식당 합정점(합정/상수, 돼지고기구이)\n  두툼한 목살·가브리살, 불맛과 육즙으로 유명. 사이드 김치말이국수·볶음밥까지 찐.\n  1인 예산: 2–3만 원대\n  팁: 저녁 웨이팅 있으니 대기 등록 후 주변 산책 추천.\n\n- 산울림1992(상수, 포차)\n  레트로 감성 포차. 라면떡볶이·김치볶음밥·오징어볶음에 소주 한 잔 하기 좋은 곳.\n  1인 예산: 1.5–2.5만 원대\n\n- 미분당 연남(연남동, 베트남 쌀국수)\n  진득한 사골 베이스 국물과 차돌 조합으로 로컬 인기. 숙주·고수 추가 가능.\n  1인 예산: 1.1–1.5만 원대\n\n- 오레노라멘 합정(합정, 라멘)\n  진한 톤코츠부터 매운 라멘까지 안정적. 카에다마(면 추가)로 든든하게.\n  1인 예산: 1.1–1.6만 원대\n\n- 사모님돈가스(연남동, 돈카츠)\n  바삭한 두께감 있는 등심·안심 카츠가 시그니처. 소스 진하고 양 넉넉.\n  1인 예산: 1.1–1.6만 원대\n  팁: 점심 피크 강함, 14–16시 사이 노려요.\n\n- 소금집 델리 연남(연남동, 샌드위치/차콜큐어드 미트)\n  하우스 큐어 햄·살라미로 만드는 샌드위치가 메인. 가벼운 한 끼나 브런치로 굿.\n  1인 예산: 1.2–1.8만 원대\n\n보너스 디저트 한 곳\n- 아오이토리(연남동, 제과점): 말차 롤·푸딩으로 유명, 로컬들 주말에 줄 서요.\n\n현지 팁\n- 월요일 휴무인 가게가 많고, 인기집은 저녁 웨이팅이 기본. 오픈런이나 평일 늦점심이 가장 수월.\n- 홍대입구역 3번 출구 쪽보다 경의선숲길(연트럴파크) 라인과 상수/합정 골목에 로컬 선호 가게가 몰려 있어요.\n- 대부분 카드 결제 가능하지만, 소규모 이자카야는 현금 준비해두면 편할 때가 있어요.\n\n원하는 음식 종류(한식·고기·면·술집·비건 등)나 예산, 웨이팅 가능 시간 알려주면 더 딱 맞게 코스처럼 묶어 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_lunch",
       "channel_id": "gpt5_search",
-      "mentioned": true,
-      "rank": 4,
-      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "okdongsik.net",
+        "mibbedong.com",
+        "gustotaco.com",
+        "guide.michelin.com",
+        "diningcode.com",
+        "ktravelmate.com",
+        "lovejejus.tistory.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 100687,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "어떤 분위기/예산/음식(한식·일식·양식 등) 원하세요? 혼밥/둘이/여럿, 대기 가능 여부도 알려주시면 더 딱 맞게 뽑아드릴게요. 우선, 홍대·연남·합정에서 점심으로 좋은 곳을 스타일별로 골라봤어요.\n\n- 돼지곰탕·국밥(혼밥 강추) — 옥동식(합정)\n  맑고 담백한 돼지곰탕으로 유명한 집. 미쉐린 가이드 ‘빕 구르망’에 여러 해 선정된 곳이라 퀄리티 탄탄합니다. 점심 피크에는 웨이팅 생겨서 오픈 직후 추천. ([okdongsik.net](https://www.okdongsik.net/?utm_source=openai))\n\n- 해산물 덮밥·소바 — 미쁘동 연남본점(연남)\n  연어·해산물 덮밥과 면이 시그니처. 영업 11:00–22:00, 당일 웨이팅 완화용 ‘미쁘동패스’ 운영. 1인 1.6–3만 원대, 홍대입구역 도보권. ([mibbedong.com](https://www.mibbedong.com/reservations/yeonnam?utm_source=openai))\n\n- 멕시칸(가벼운 점심·채식 옵션) — Gusto Taco(상수/홍대)\n  매일 매장에서 누르는 또르띠야가 강점. 홍대권에서 꾸준히 사랑받는 타코집으로 점심 캐주얼하게 좋습니다. 운영·휴무는 요일별 변동이 있어 방문 전 확인 권장. ([gustotaco.com](https://gustotaco.com/?utm_source=openai))\n\n- 설렁탕(담백·든든) — 마포옥(Mapo Ok)(합정 인근)\n  1949년부터 이어온 설렁탕 노포. 점심에 빠르게, 부담 없이 한 그릇 하기 좋아요. ([guide.michelin.com](https://guide.michelin.com/us/en/seoul-capital-area/kr-seoul/restaurant/mapo-ok?utm_source=openai))\n\n- 돈카츠(바삭·진한) — 경양카츠 연남(연남)\n  안심/등심 카츠로 인기. 점심 피크에 대기 잦고 브레이크타임(대개 15:00–17:00) 유의. ([diningcode.com](https://www.diningcode.com/profile.php?rid=b1ZwKCUHSjyX&utm_source=openai))\n\n- 건강식·비건 옵션 — 땡스오트 연남(연남)\n  그래인·오트밀 보울 등 가볍게 한 끼 하기 좋은 메뉴가 많고, 반려동물 동반·연중무휴 안내. ([ktravelmate.com](https://www.ktravelmate.com/ko/mapo-gu/restaurant/2900452?utm_source=openai))\n\n빠르게 고르기 팁\n- 대기 피하려면 11:30 이전 혹은 13:30 이후 방문 권장.\n- 홍대권은 가게별 브레이크타임/라스트오더가 다르니 출발 전 네이버지도·카카오맵로 최신 공지 확인하세요. ([lovejejus.tistory.com](https://lovejejus.tistory.com/50?utm_source=openai))\n\n원하시는 예산(예: 1인 1.2만/2만/3만+), 음식 타입, 대기 허용 시간(예: 10분/30분), 인원수를 알려주시면 동선까지 고려해 5곳으로 압축해 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1131,78 +394,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 97812,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_lunch",
-      "channel_id": "claude_opus_search",
-      "mentioned": true,
-      "rank": 3,
-      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_lunch",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_lunch",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_lunch",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대/연남/합정 일대 점심 맛집, 바로 가기 좋은 곳들 추천해요! (가격은 1인 기준 대략)\n\n빠르게, 가성비 좋게\n- 서교동수제비(서교/상수): 멸치육수 수제비·칼국수, 김치전. 8천~1.1만. 회전 빠르고 혼밥도 편함.\n- 텐동요츠야 홍대점(홍대입구): 바삭한 텐동(새우·아나고), 미소시루 리필. 1.1~1.4만. 웨이팅 있으면 회전 빠른 편.\n- 미분당 연남(연남동): 진한 육향 쌀국수·분짜. 9천~1.3만. 점심 붐비지만 회전 좋음.\n- 도스타코스 홍대(홍대입구): 타코·부리토·퀘사디야. 7천~1.2만. 캐주얼, 빨리 나옴.\n- 합정옥(합정): 설렁탕·수육. 1.2~1.5만. 담백한 국물, 편하게 한 끼.\n\n느긋하게, 만족도 높게\n- 소이연남(연남동): 타이 소고기국수·팟씨유. 1.2~1.8만. 웨이팅 잦음, 11:30 이전 추천.\n- 카츠바이콘반 연남(연남동): 두툼한 로스/히레카츠. 1.3~1.8만. 바삭 촉촉, 웨이팅 있음.\n- 하카다분코(상수): 돈코츠 라멘·차슈덮밥 사이드. 9천~1.3만. 진한 국물, 소규모 좌석.\n- 다운타우너 연남(연남동): 아보카도·치즈버거, 트러플감자. 1.1~1.7만. 브런치 느낌으로도 좋음.\n- 피양콩할마니 합정(합정): 콩국수(제철)·만두·평양냉면 스타일 메뉴. 1.2~1.8만. 깔끔담백.\n- 볼피노 연남(연남동): 크림/오일 파스타, 라구. 1.8~2.8만. 데이트/회식 점심에 좋음.\n\n비건/가벼운 옵션\n- 베제투스 Vegetus(연남동): 비건 버거·라자냐·샐러드. 1.2~1.8만. 고소한 소스와 식감 좋음.\n\n웨이팅 피하는 팁\n- 평일 11:30 이전 또는 13:30 이후 방문 추천\n- 인기 매장(소이연남/카츠바이콘반/하카다분코)은 오픈런 효과 큼\n- 영업시간·휴무는 방문 전 지도앱에서 최신 정보 확인\n\n원하시는 스타일 알려주시면 더 맞춤으로 좁혀드릴게요!\n- 음식 종류(한식/일식/아시아/버거/파스타 등)\n- 예산대\n- 혼밥/동행 인원\n- 매운맛/알레르기/채식 여부\n- 웨이팅 가능 시간, 예약 선호 여부"
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1213,14 +408,16 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
+        "triple.guide",
+        "wanderlog.com",
+        "seoulocal.com",
+        "polle.com",
         "siksinhot.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 90828,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대 근처 전통 한식 찾으시면, 아래처럼 편하게 가기 좋아요. 바로 가실 수 있게 대표 메뉴와 위치만 간단히 적었습니다.\n\n- 서교김치찌개(서교동) — 김치찌개로 유명한 동네 식당. 주소: 마포구 잔다리로 105-1. 혼밥·간단한 한끼로 좋아요. ([triple.guide](https://triple.guide/restaurants/78a1c912-4cf1-4680-8040-2c37b27e1443?utm_source=openai))\n- 마산족발(서교동) — 족발·부추전으로 꾸준히 찾는 집. 주소: 마포구 월드컵북로 41. 저녁 모임에 무난합니다. ([wanderlog.com](https://wanderlog.com/place/details/6087958/%EB%A7%88%EC%82%B0%EC%A1%B1%EB%B0%9C?utm_source=openai))\n- 신교칼국수(홍대/연남동 인근) — 투박하고 진한 칼국수·국물류로 현지인들이 가는 칼국수집. ([seoulocal.com](https://seoulocal.com/spot/s-hongdae?utm_source=openai))\n- 시골식당(서교동) — 생선구이·집밥 스타일 백반 세트로 든든하게 먹기 좋아요. ([seoulocal.com](https://seoulocal.com/spot/s-hongdae?utm_source=openai))\n- 감나무집 기사식당(연남동) — 돼지불백·백반류로 유명한 기사식당 스타일. 주소: 마포구 연남로 25. 늦은 시간 한 끼도 무난. ([polle.com](https://polle.com/place/4WFiXt/%EA%B0%90%EB%82%98%EB%AC%B4%EC%A7%91%20%EA%B8%B0%EC%82%AC%EC%8B%9D%EB%8B%B9?utm_source=openai))\n- 송가네감자탕 본점(연남동) — 감자탕·뼈해장국 등 전통 국물 메뉴. 인원 모여서 나눠 먹기 좋습니다. ([siksinhot.com](https://www.siksinhot.com/taste?areaNo=8802&hpSchCate=3&utm_source=openai))\n\n가시기 전 네이버지도/카카오맵에서 “상호명”으로 영업시간·휴무·웨이팅을 꼭 확인하세요(가게별 변동이 잦습니다).\n\n원하시는 스타일이 어떤가요?\n- 메뉴: 찌개/국밥/칼국수/보쌈·족발/한상차림(한정식) 중?\n- 예산/인원: 1인 예산, 몇 명이서 가시나요?\n- 시간대: 점심/저녁/야식?\n- 술 동반 여부: 막걸리·소주 가능한 곳이 필요하신가요?\n\n알려주시면 더 딱 맞게 골라드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1231,78 +428,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 73858,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_traditional",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_traditional",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_traditional",
-      "channel_id": "gemini_search",
-      "mentioned": true,
-      "rank": 3,
-      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_traditional",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "어떤 분위기/예산/메뉴를 원하시는지에 따라 몇 곳 추천드릴게요. 홍대입구·합정·연남·연희·공덕 등 가까운 노포·한식집 위주입니다.\n\n- 을밀대(마포 공덕) – 평양냉면, 수육\n  담백한 평냉 스타일의 대표 노포. 여름·주말 대기 길어요. 홍대에서 택시 10~15분/지하철 2~3정거장.\n\n- 마포옥(공덕) – 설렁탕, 수육\n  맑은 국물의 설렁탕으로 유명한 오래된 집. 아침부터 든든하게 먹기 좋아요.\n\n- 연남서서갈비(연남동) – 숯불갈비\n  서서 먹는 옛 감성의 갈비집. 연기가 좀 있지만 맛과 분위기 모두 전통적이고, 홍대/연남에서 접근성 좋아요.\n\n- 연희동국수(연희동) – 칼국수, 만두, 보쌈\n  담백한 들깨칼국수와 수육·보쌈이 잘하는 동네 노포 느낌. 점심 웨이팅 있음. 홍대에서 버스/택시로 10분대.\n\n- 감나무집 기사식당(합정) – 백반, 김치찌개, 고등어구이\n  반찬 푸짐한 백반집 스타일. 점심 시간 현지인·기사님들로 붐벼요. 합정역 근처.\n\n- 전주현대옥 홍대입구 – 콩나물국밥\n  깔끔한 전주식 콩나물국밥 체인 중 접근성 최고. 가벼운 한식·해장으로 좋아요.\n\n- 을밀대 가기 부담되면: 을밀대 대신 가까운 냉면 찾으시면 교동/함흥 계열 냉면집들이 합정·홍대 주변에 꽤 있어요(지도앱에서 ‘냉면 홍대’ 검색 추천).\n\n- 망원시장(망원) – 시장식 전통 먹거리\n  칼국수, 빈대떡, 어묵, 순댓국, 족발 등 전통 시장 한식 즐기기 좋아요. 산책 겸 방문 추천.\n\n간단 팁\n- 한식 노포는 재료 소진·브레이크타임 있는 곳이 많아 방문 전 영업시간 확인이 안전합니다.\n- 고기구이는 대기 길 수 있으니 오픈 시간/이른 저녁 추천.\n- 1만원대 가성비 백반부터 2~3만원대 냉면+수육, 3~5만원대 고기구이까지 예산 폭이 다양해요.\n\n원하시는 메뉴(한정식/백반, 국밥/탕, 냉면, 고기, 전·막걸리)와 예산, 방문 시간대(점심/저녁)를 알려주시면 더 딱 맞게 골라드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1313,96 +442,30 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "koreatriptips.com",
+        "siksinhot.com",
+        "menupan.com",
+        "diningcode.com",
+        "gajaseoul.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 110296,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "좋아하시는 스타일별로 홍대/합정·상수·서교 근처 “국물 맛” 좋은 곳들만 골라봤어요.\n\n- 맑고 담백한 국밥: 옥동식(합정·서교)\n  맑은 돼지곰탕 단일메뉴로 유명해요. 웨이팅이 잦으니 방문 전 대기 확인을 추천합니다. ([koreatriptips.com](https://www.koreatriptips.com/location.html?mapX=126.9226542413&mapY=37.5540713611&page=6&utm_source=openai))\n\n- 진한 닭백탕 라멘: 오레노라멘 합정 본점\n  토리/카라 파이탄이 대표 메뉴. 면·밥·육수 리필로 푸짐하게 즐기기 좋아요. ([siksinhot.com](https://www.siksinhot.com/P/872464?utm_source=openai))\n\n- 불향 가득 짬뽕: 초마(홍대·서교)\n  매콤한 짬뽕과 담백한 백짬뽕이 모두 인기. 오래된 중식 노하우의 묵직한 국물이 강점이에요. ([menupan.com](https://www.menupan.com/restaurant/onepage.asp?acode=C102895&utm_source=openai))\n\n- 뽀얗고 진한 콩비지 감자탕: 영동감자탕(서교)\n  콩비지가 들어가 국물이 더 뽀얗고 진해요. 식사 시간엔 대기가 잦으니 조금 일찍 가면 좋아요. ([siksinhot.com](https://www.siksinhot.com/P/482539?utm_source=openai))\n\n- 해장각/늦은 시간까지: 누리마을 감자탕 홍대\n  야간에도 손님이 많은 감자탕·뼈해장국 집으로 소개돼요. 위치가 좋아 찾기 쉽고 양·가성비가 좋아요. ([diningcode.com](https://www.diningcode.com/profile.php?rid=hfMQ4dfkJ0vA&utm_source=openai))\n\n- 화끈한 훠궈: 하이디라오 홍대\n  다양한 탕 베이스와 친절한 서비스로 유명. 대기가 길 수 있어 사전 웨이팅 또는 예약 권장, 와이즈파크 5층. ([gajaseoul.com](https://gajaseoul.com/ko/store/haidilao_hongdae?utm_source=openai))\n\n팁\n- 영업시간·라스트오더와 실시간 대기 상황은 방문 당일 네이버지도에서 한 번 더 확인하세요. 주말 저녁은 웨이팅 대비해서 가볍게 간식 후 줄 서면 편합니다.\n\n취향을 알려주시면 더 좁혀 드릴게요.\n- 어떤 국물 스타일 좋아하세요? (담백/얼큰/매운/기름진)\n- 예산대, 술 동반 여부(소주·맥주·사케 등), 1인/2인/단체 여부도 알려주시면 코스까지 맞춰 추천해드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_soup",
       "channel_id": "gpt5_no_search",
-      "mentioned": true,
-      "rank": 4,
-      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_soup",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_soup",
-      "channel_id": "claude_opus_no_search",
       "mentioned": false,
       "rank": null,
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
+      "latency_ms": 99858,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_soup",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_soup",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "좋아요! 홍대·연남·합정·상수·망원까지 포함해 국물 맛으로 유명한 곳들 추천해요.\n\n- 하카타분코(상수/합정)\n  - 메뉴: 진한 돈코츠 라멘\n  - 포인트: 돼지뼈 풍미가 진하고 꾸덕한 스타일. 늦은 시간까지 하는 편이라 야식/해장 모두 좋아요.\n  - 팁: 면 단단함(가타메) 요청하면 더 좋아요.\n\n- 은희네해장국(연남)\n  - 메뉴: 제주식 해장국\n  - 포인트: 깔끔하면서 깊은 국물, 느끼함 적고 속 편한 스타일.\n  - 팁: 다대기 양 조절해서 담백/칼칼 선택 가능.\n\n- 망원즉석우럭수제비(망원)\n  - 메뉴: 우럭탕 베이스 즉석 수제비\n  - 포인트: 시원하고 칼칼한 국물에 수제비 식감이 좋아요.\n  - 팁: 웨이팅 잦으니 피크 시간대는 미리 줄 서기 추천.\n\n- 미분당(연남)\n  - 메뉴: 베트남식 쌀국수(양지/차돌)\n  - 포인트: 진하게 우린 소고기 육수, 잡맛 없이 깔끔.\n  - 팁: 고수/소스 조절 가능, 회전 빠르지만 대기 있을 수 있어요.\n\n- 담소소사골부대찌개(홍대 상권)\n  - 메뉴: 사골 베이스 부대찌개(1인 전골)\n  - 포인트: 뽀얀 국물에 햄·소시지 풍성. 진득하면서도 짜지 않아요.\n  - 팁: 라면사리·치즈 추가해서 진하게 먹기 추천.\n\n- 교동짬뽕(홍대 상권)\n  - 메뉴: 불맛 나는 얼큰 짬뽕\n  - 포인트: 매콤·시원 국물, 해물·야채 양 넉넉.\n  - 팁: 맵기 선택 가능, 곱배기 옵션 있어요.\n\n- 연희동칼국수(연희/홍대 인근)\n  - 메뉴: 바지락 육수 칼국수·수제비\n  - 포인트: 담백한 조개 육수와 아삭한 김치 조합이 좋습니다.\n  - 팁: 점심 웨이팅 많으니 오픈 직후 추천.\n\n- 신촌설렁탕(신촌/홍대 한 정거장)\n  - 메뉴: 설렁탕·도가니탕\n  - 포인트: 뽀얀 국물에 고기 푸짐, 깍두기 맛으로도 유명.\n  - 팁: 소금·후추·파 듬뿍 넣어 입맛에 맞게 조절하세요.\n\n원하시는 스타일이 한식(해장국·감자탕·칼국수·설렁탕) 위주인지, 라멘/마라탕/쌀국수 같은 아시아 면류도 괜찮은지 알려주시면 더 딱 맞게 추려드릴게요. 예산, 매운맛 선호, 늦은 시간 영업 여부도 함께 알려주시면 좋아요. 영업시간과 대기는 변동되니 방문 전 네이버 지도에서 최신 정보 확인을 추천합니다."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1413,14 +476,16 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "futureheritage.seoul.go.kr",
+        "english.visitkorea.or.kr",
+        "english.visitseoul.net",
+        "hongdae-korean-bbq.kr",
+        "hongdaedak.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 230750,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "Great choice—Hongdae and the adjacent Yeonnam/Yeonhui pockets are loaded with locals’ favorites. Here are reliable, must-try spots by dish, all walkable or a short hop from Hongik Univ. Station:\n\n- Yeonnam Seo Sikdang (연남서식당) – standing charcoal-grilled beef galbi at a storied, old-school spot; now in Yeonhui-dong. Address: 15 Yeonhui-mat-ro, Seodaemun-gu. Expect a queue, no seats. ([futureheritage.seoul.go.kr](https://futureheritage.seoul.go.kr/futureHeritageMeet/futureHeritage/view.do?htNo=162&utm_source=openai))\n- Myth Jokbal, Hongdae (미쓰족발 홍대) – the neighborhood’s signature garlicky jokbal (braised pig’s trotters). Address: 123-1 Eoulmadang-ro, Mapo-gu. Hours: 12:30–24:00. ([english.visitkorea.or.kr](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=51719))\n- Hongs Jjukkumi, Hongdae (홍스쭈꾸미) – spicy stir-fried baby octopus; finish with flying-fish-roe fried rice. Very popular at dinner. ([english.visitseoul.net](https://english.visitseoul.net/area/2024-hongsjkm/ENPha9u5l?utm_source=openai))\n- Booyas Gopchang (부야스곱창), Hongdae – long-running spot for grilled beef intestines (gopchang/daechang); classic late-night anju. ([english.visitseoul.net](https://english.visitseoul.net/restaurants/BooyasGopchang/ENPsj6nqy?utm_source=openai))\n- Oksang Dalbit (옥상달빛) – fried chicken flambéed with vodka, heavy on garlic/pepper; a fun, very late option. Address: 2 Wausan‑ro 13‑gil, Mapo‑gu. Hours: 17:00–04:30. ([english.visitkorea.or.kr](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=67338))\n- MGM Hongdae – casual, lively K‑BBQ where pork belly and ribs are grilled on a hot cauldron lid. Address: 1F, 8 World Cup‑buk‑ro 4‑gil, Mapo‑gu. ([english.visitseoul.net](https://english.visitseoul.net/restaurants/2024-MGM_/46403?utm_source=openai))\n- Doma Hongdae (도마) – beef-focused charcoal K‑BBQ with good marbling and cuts; a solid sit-down alternative to the standing galbi above. Address: 33 Yanghwa‑ro 16‑gil, Mapo‑gu. ([hongdae-korean-bbq.kr](https://hongdae-korean-bbq.kr/ko?utm_source=openai))\n- Shin Mi‑kyung Hongdae Dakgalbi (신미경 홍대 닭갈비) – classic spicy skillet chicken with cabbage, tteok, and cheese add‑ons; great for sharing. Address: 31‑10 Wausan‑ro 21‑gil, Mapo‑gu. ([hongdaedak.com](https://hongdaedak.com/en?utm_source=openai))\n- Yeonhuidong Kalguksu (연희동 칼국수) – comforting knife‑cut noodle soup and sujebi near Hongdae; ideal on a rainy day. ([english.visitseoul.net](https://english.visitseoul.net/restaurants/Yeonhuidong-Kalguksu/ENP004227))\n\nQuick tips to eat well in Hongdae\n- Go early or late: Lines spike 6:30–8:30 pm; late eats are easy (some kitchens run past midnight). Oksang Dalbit is open until 04:30. ([english.visitkorea.or.kr](https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=67338))\n- Use Naver Map on-site for live waits and exact entrances; many places are up narrow stairs or alleys. The official Seoul/KTO listings above have current basics (addresses/hours) to start. ([english.visitkorea.or.kr](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=51719))\n\nIf you tell me what you’re craving (BBQ vs. noodles vs. spicy seafood), budget, and whether you want alcohol-friendly spots or vegetarian-friendly options, I’ll narrow this to a perfect 1–2 meal plan near your exact hotel or station exit."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1431,96 +496,24 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 122500,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_tourist_en",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_tourist_en",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_tourist_en",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_tourist_en",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "Here’s a curated, first-timer-friendly hit list around the Hongdae (Hongik Univ) area, plus nearby Yeonnam/Hapjeong/Sangsu. I’ve included Korean names to make them easy to find on Naver/Kakao Maps. Always check hours/wait times, as popular spots get lines.\n\nKorean BBQ and classics\n- Palsaik Samgyeopsal (팔색삼겹살 홍대): 8-flavor pork belly set; finish with kimchi fried rice. Lively, great for groups. ₩18–25k pp.\n- Saemaeul Sikdang (새마을식당 홍대): Thin pork belly + the famous 7‑minute kimchi jjigae (7분 돼지김치). Affordable, open late. ₩10–20k pp.\n- Hanam Pig House (하남돼지집 홍대): Charcoal-grilled pork; staff helps cook to perfect doneness. ₩20–30k pp.\n- Myth Jokbal, Hongdae main (미쓰족발 홍대본점): Iconic pork hock (garlic or soy), also great bossam sets. Go early or expect a queue. ₩18–25k pp.\n\nSpicy & stir-fry favorites\n- Hongdae Jjukkumi (홍대쭈꾸미): Spicy baby octopus; choose your heat level and end with cheesy fried rice (치즈 볶음밥). ₩15–25k pp.\n- Yoogane Dakgalbi (유가네 닭갈비 홍대): Stir-fried chicken with rice cakes; add cheese ring and fried rice. Casual, fun. ₩12–20k pp.\n\nFried chicken and late-night bites\n- Kyochon Chicken (교촌치킨 홍대/홍대입구역 인근): Go for Soy Garlic or Red series; perfect with cold beer (치맥). Dine-in or take away. ₩12–20k pp.\n- Sinjeon Tteokbokki (신전떡볶이 홍대): Spicy rice cakes, so‑tteok‑so‑tteok skewers; quick and cheap. ₩6–12k pp.\n- Gimbap Cheonguk (김밥천국 홍대): 24‑hour Korean diner chain—tuna gimbap, kimchi jjigae, katsu curry. Simple, reliable. ₩6–12k pp.\n\nSoups/comfort food\n- Gamjatang/Seolleongtang spots are dotted around the main streets—search “감자탕 홍대” or “설렁탕 홍대” on Naver for a hearty, no-frills bowl after a night out (₩9–14k).\n\nDessert & cafes\n- Sulbing (설빙 홍대): Injeolmi bingsu or mango/cheesecake bingsu—classic Korean shaved ice. ₩9–15k (shareable).\n- Cafe Layered, Yeonnam (레이어드 연남): British-style scones and cakes; mornings are calmer. Near Gyeongui Line Forest Park. ₩6–12k.\n- Coffee Libre, Yeonnam (커피리브레 연남): Specialty roaster with excellent espresso and hand-drip. ₩5–8k.\n- Anthracite Coffee, Hapjeong (앤트러사이트 합정): Atmospheric roastery in a converted factory; great for a mid-afternoon break. ₩5–8k.\n\nDrinks (craft beer & soju bars)\n- Caligari Brewing, Hapjeong (칼리가리브루잉 합정): Local craft brewery; grab a tasting flight and bar snacks. ₩8–12k per pint.\n- Look for cozy “pocha” (포차) or “suljip” (술집) along the Hongdae walking street and Sangsu backstreets for soju, makgeolli, and anju (bar snacks). Search “포차 홍대” on Naver.\n\nStreet food to try as you wander\n- You’ll find tornado potato, hotteok (filled sweet pancakes), tteokbokki, grilled skewers, and egg bread along the main pedestrian street near Hongik Univ Station (especially evenings/weekends).\n\nTips\n- Peak times: 6:30–9:00 pm. To avoid lines, go right at opening or for late dinner after 9.\n- How to find places fast: Paste the Korean names into Naver Maps (most accurate locally). Many spots use waitlist kiosks.\n- Ordering phrases: “둘이요/셋이요” (table for two/three), “안 매운 걸로 주세요” (not too spicy, please), “볶음밥 추가요” (add fried rice).\n- Dietary notes: For vegetarian-friendly mains, try Cafe Sukkara (카페 수카라) near Hongdae for seasonal veg bowls and hearty soups; most BBQ/tteokbokki spots are meat/seafood-forward.\n\nIf you share what you’re craving (BBQ vs spicy, budget, willingness to queue, dessert/coffee focus), I can map out a one-evening or full-day food crawl tailored to you."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_hangover",
       "channel_id": "gpt5_search",
-      "mentioned": true,
-      "rank": 4,
-      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
       "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "sources_used": [],
+      "latency_ms": 75141,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "좋아요! 홍대 어디 쪽에서, 어떤 스타일로 해장하시려나요? 몇 가지만 알려주시면 딱 맞게 추려드릴게요.\n\n- 시간대: 지금 당장/새벽/내일 아침? 24시간이나 아주 이른 오픈이 필요하신가요?\n- 메뉴 취향: 맑고 담백(설렁탕·곰탕·돼지곰탕) / 칼칼·얼큰(육개장·짬뽕·해장국) / 가벼운 국수(잔치국수·칼국수·콩나물국밥) 중 어디에 끌리세요?\n- 예산·인원: 1인 예산, 동행 인원, 웨이팅 가능 여부(10~30분) 알려주세요.\n\n원하시면 “가볍게 속 풀기용” “확실하게 땀 빼기용” 이렇게 코스로도 추천해 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1531,96 +524,28 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 43157,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_hangover",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_hangover",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_hangover",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_hangover",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대·합정·상수·연남동 근처에서 해장 잘 되는 곳 몇 군데 추려봤어요. 취향이랑 지금 시간대 알려주시면 더 좁혀 드릴게요.\n\n부드럽고 순한 해장(속 편한 국물)\n- 설렁탕·곰탕: 육수당(합정역 인근) – 깔끔한 사골 베이스, 부담 적어요.\n- 설렁탕: 신촌설렁탕(신촌역 쪽, 홍대에서 한 정거장) – 담백하고 밥 말아 먹기 좋아요.\n- 설렁탕 명집: 마포옥(공덕역, 택시 10분 내외) – 살짝 멀지만 클래식한 맛.\n\n개운하게 칼칼한 해장\n- 콩나물국밥: 현대옥(연남/홍대 인근 지점) – 콩나물+수란 조합, 속 확 풀려요.\n- 짬뽕: 교동짬뽕/홍콩반점 0410(홍대 인근 지점 다수) – 얼큰한 국물로 땀 빼기 좋아요.\n- 김치찌개: 오모가리 김치찌개(홍대 인근 지점) – 푹 익은 김치와 돼지고기 조합.\n\n든든하게 해장(해장+포만감)\n- 순대국: 신의주찹쌀순대(홍대/합정 인근 지점) – 내장 선택 가능, 밥 추가하면 든든.\n- 감자탕: 남다른감자탕/원당감자탕(홍대·합정 지점) – 얼큰한 뼈해장, 친구랑 나눠 먹기 좋아요.\n- 돼지국밥: 부산식 돼지국밥 집들이 홍대에 몇 군데 있어요(지점별 편차 있으니 후기 체크 추천).\n\n팁\n- 아주 매운 메뉴는 속이 예민하면 오히려 더 힘들 수 있어요. 콩나물국밥·설렁탕·곰탕 같은 순한 국물부터 추천.\n- 지점·영업시간이 지점별로 달라서 출발 전 네이버/카카오맵에서 “영업 중” 확인하세요.\n\n원하시는 스타일(맵게/순하게), 예산대, 지금 계신 정확한 근처(홍대입구/합정/상수/연남)나 가는 시간 알려주실래요? 그에 맞춰 바로 갈 만한 곳 3곳만 콕 집어 드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_mapo_gukbap",
       "channel_id": "gpt5_search",
-      "mentioned": true,
-      "rank": 4,
-      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "diningcode.com",
+        "english.visitkorea.or.kr",
+        "coexcenter.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 97703,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "마포구 국밥 맛집, 스타일별로 추려봤어요\n\n- 옥동식(합정) – 맑고 담백한 ‘돼지곰탕’의 대표주자. 재료 소진 시 조기 마감 있으니 식사시간 맞춰 방문 추천. ([diningcode.com](https://www.diningcode.com/profile.php?rid=4fgdW6Inktww&utm_source=openai))\n- 돈수백 홍대직영점(홍대입구) – 깔끔한 부산식 돼지국밥. 홍대입구역 가까워 접근성 좋고 늦은 시간대에도 이용하기 편해요. ([diningcode.com](https://www.diningcode.com/profile.php?rid=EdvkxYfpaVOY&utm_source=openai))\n- 월강부산돼지국밥(연남) – 뽀얀 국물의 부산 스타일, 수육 정식도 인기. 연트럴파크 근처. ([diningcode.com](https://www.diningcode.com/profile.php?rid=qhnjNMasuazd&utm_source=openai))\n- 합정옥(합정) – 미쉐린 가이드에 여러 차례 소개된 소곰탕 전문. 합정역 8번 출구 인근. ([english.visitkorea.or.kr](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191666&utm_source=openai))\n- 마포옥(마포·공덕 사이) – 1949년 시작한 설렁탕 노포. 맑고 진한 국물에 토렴밥 스타일. ([coexcenter.com](https://www.coexcenter.com/wp-content/uploads/2021/11/Taste-of-Seoul-2021_STO.pdf?utm_source=openai))\n- 마포양지설렁탕(공덕) – 공덕역 근처의 설렁탕 노포로 파김치와 함께 담백하게 즐기기 좋아요. ([diningcode.com](https://www.diningcode.com/profile.php?rid=aTbdepkHcgkx&utm_source=openai))\n- 모이세해장국(마포역) – 선지·소고기·내장 해장국 등 선택 폭 넓은 해장 전문 국밥집. ([diningcode.com](https://www.diningcode.com/profile.php?rid=I4v1YhdEojXf&utm_source=openai))\n- 비사벌전주콩나물국밥 합정점(합정) – 시원한 전주식 콩나물국밥 한 그릇으로 가볍게 해장하기 좋습니다. ([diningcode.com](https://www.diningcode.com/profile.php?rid=a6jZpB2qYWZK&utm_source=openai))\n\n원하는 스타일(돼지/소/순대/콩나물)이나 동네(공덕·합정·홍대·망원) 알려주시면, 동선 맞춰 2~3곳으로 더 구체적으로 골라드릴게요. 방문 전 영업시간·휴무는 변동될 수 있으니 확인하세요. ([diningcode.com](https://www.diningcode.com/list.dc?query=%EC%84%9C%EC%9A%B8+%EB%A7%88%ED%8F%AC%EA%B5%AC+%EA%B5%AD%EB%B0%A5&utm_source=openai))"
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1631,178 +556,43 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 61875,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_mapo_gukbap",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_mapo_gukbap",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": true,
-      "rank": 2,
-      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5",
-      "sentiment": "positive",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_mapo_gukbap",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_mapo_gukbap",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "마포구 국밥 잘하는 곳 몇 곳만 콕 집어 추천할게요. 스타일별로 골라 가보세요.\n\n- 옥동식 연남본점 (연남동/홍대입구)\n  - 돼지국밥 전문. 잡내 없이 맑고 담백한 국물 + 부추·양념젓갈 조합이 훌륭해요.\n  - 수육/편육도 인기. 웨이팅 잦고 재료 소진 마감이 있으니 오픈런 추천.\n  - 가격대: 약 1.2만~1.6만 원\n\n- 마포옥 (도화동/마포·공덕 사이)\n  - 설렁탕·수육 명소. 진하고 깔끔한 소뼈 육수와 깍두기가 한 몫합니다.\n  - 점심 혼잡, 주말 대기 있음. 깔끔한 서울식 국밥 원하면 여기.\n  - 가격대: 약 1.3만~1.8만 원\n\n- 순대실록 홍대점 (서교동/홍대·상수)\n  - 수제 순대와 담백한 순대국. 내장·순대 비율 선택 가능.\n  - 들깨/얼큰 조절 가능해 취향 맞추기 좋아요.\n  - 가격대: 약 1.0만~1.5만 원\n\n- 현대옥 홍대점 (동교동/홍대입구)\n  - 전주식 콩나물국밥. 수란 넣어 부드럽고 해장으로 제격.\n  - 김가루/새우젓으로 간 맞추면 깔끔하게 내려가요.\n  - 가격대: 약 8천~1.1만 원\n\n- 서울깍두기 공덕점 (공덕역 인근)\n  - 설렁탕·갈비탕 등 소고기 국밥 계열. 김치/깍두기 맛이 강점.\n  - 아침 일찍부터 저녁까지 운영(지점별 상이). 직장인 점심 인기.\n  - 가격대: 약 1.2만~1.8만 원\n\n- 신의주찹쌀순대 홍대 일대 지점\n  - 프랜차이즈지만 모둠순대·순대국이 무난하고 늦게까지 하는 편.\n  - 들깨·얼큰 옵션으로 취향 조절 쉬움.\n  - 가격대: 약 9천~1.3만 원\n\n참고\n- 실제 영업시간·가격은 변동될 수 있으니 방문 전 네이버/카카오맵에서 최신 정보와 웨이팅 상황 확인을 추천합니다.\n- 스타일별 한줄 정리: 담백 맑은 돼지국밥=옥동식, 진한 소뼈 설렁탕=마포옥/서울깍두기, 수제 순대국=순대실록, 해장용 콩나물국밥=현대옥.\n\n원하는 스타일(돼지국밥/순대국/콩나물/설렁탕), 가고 싶은 동네(홍대·합정·망원·공덕 등), 방문 시간대 알려주면 더 딱 맞게 골라줄게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_family",
       "channel_id": "gpt5_search",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "siksinhot.com",
+        "diningcode.com",
+        "polle.com",
+        "timeout.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 126656,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "부모님 모시고 가기 좋은 홍대·합정·연남 인근 식당 추천드려요 (조용함·룸 유무·주차 고려)\n\n- 우담가&해담가(합정 메세나폴리스 1층)\n  한정식/해산물 코스, 개별 룸이 많아 상견례·가족모임으로 유명. 합정역 연결이라 접근·주차(몰 주차) 편리. 점심 단품부터 코스(예: 우담 코스)까지 선택 폭이 넓어요. 예약 권장. ([siksinhot.com](https://www.siksinhot.com/P/1044326?utm_source=openai))\n\n- 경복궁 서교점(서교동)\n  한우·갈비·한정식 코스와 개별룸 운영. 가족행사·상견례 후기가 많은 편. 코스/세트 구성 다양하니 인원·예산에 맞춰 예약 문의하세요. ([diningcode.com](https://www.diningcode.com/profile.php?rid=aDQwtvNmBsw0&utm_source=openai))\n\n- 중화복춘 골드(홍대입구/동교동)\n  격식 있는 중식 다이닝. 동파육·양장피 등 요리 잘하는 곳으로 모임에 적합, 좌석 간격도 넉넉. 전화/캐치테이블 예약 가능. ([diningcode.com](https://www.diningcode.com/profile.php?rid=FC60C3AjPEJs&utm_source=openai))\n\n- 삿뽀로 홍대점(월드컵북로)\n  정갈한 일식 회정식/코스, 룸 보유. 부모님 동반 가족모임으로 이용이 잦아요. 사전 예약 시 편합니다. ([diningcode.com](https://www.diningcode.com/list.dc?query=%EC%84%9C%EC%9A%B8+%ED%99%8D%EB%8C%80+%EB%A3%B8%EC%8B%9D%EB%8B%B9&utm_source=openai))\n\n- 수빈(연희동)\n  한정식 전문(보리굴비·떡갈비·간장게장 등). 조용한 룸(2층)과 발렛 운영 후기가 있어 어르신 모시기 좋아요. 화요일 휴무, 예약 추천. ([diningcode.com](https://www.diningcode.com/profilemap?rid=3yqYQQfgTiuJ))\n\n- 오우 연남점(연남동)\n  깔끔한 한정식/반상 위주의 한식 다이닝. 비교적 차분한 분위기로 부모님과 편히 식사하기 좋아요. ([polle.com](https://polle.com/place/4MuM83/%EC%98%A4%EC%9A%B0?utm_source=openai))\n\n- 로칸다 몽로(합정/서교동)\n  차분한 이탈리안 다이닝. 코스/와인 페어링이 좋아 한식 외 서양식 원하실 때 대안으로 괜찮습니다. 저녁 영업 위주라 예약 권장. ([timeout.com](https://www.timeout.com/seoul/restaurants/locanda-mong-ro?utm_source=openai))\n\n빠르게 고르실 수 있게 팁\n- 가장 조용하게: “우담가&해담가”, “경복궁 서교점”처럼 개별 룸 많은 곳 추천.\n- 한식 위주: 우담가/해담가, 경복궁, 수빈.\n- 중식 선호: 중화복춘 골드.\n- 서양식/이탈리안: 로칸다 몽로.\n- 접근·주차 편의: 합정 메세나폴리스 내 매장(우담가/해담가, 백리향 등)은 주차·엘리베이터 편리. ([siksinhot.com](https://www.siksinhot.com/P/1044326?utm_source=openai))\n\n몇 가지만 알려주세요. 원하시면 바로 2~3곳으로 좁혀 드릴게요.\n- 날짜/시간대(예: 8월 17일 토 저녁)\n- 인원/예산(1인 예산 대략)\n- 좌석 선호(룸/홀), 어르신 이동 편의(엘리베이터·주차 필요 여부)\n- 선호 음식(한식/중식/일식/이탈리안), 매운맛·알레르기 여부"
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_family",
       "channel_id": "gpt5_no_search",
-      "mentioned": true,
-      "rank": 3,
-      "context": "서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_family",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_family",
-      "channel_id": "claude_opus_no_search",
       "mentioned": false,
       "rank": null,
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
+      "latency_ms": 85405,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_family",
-      "channel_id": "gemini_search",
-      "mentioned": true,
-      "rank": 2,
-      "context": "처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5",
-      "sentiment": "positive",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_family",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대 쪽이 번화해서 소음·대기 많은 곳이 많습니다. 부모님 모시기 좋게, 비교적 조용하고 음식이 깔끔한 곳 위주로 골랐어요. 홍대입구·합정·연남·연희(홍대에서 차로 5–15분) 중심입니다.\n\n한식/국물 깔끔한 집\n- 합정옥(합정): 설렁탕·도가니탕. 담백하고 부담 없는 맛, 좌석 간격도 무난해 어르신 동행에 좋아요. 합정역 근처라 접근성도 편함.\n- 마포옥(공덕): 설렁탕·갈비탕. 깔끔한 국물과 넉넉한 양으로 유명. 홍대입구역에서 차로 10분 내외.\n- 을밀대 마포본점(아현/마포): 평양냉면·어복쟁반. 자극 덜한 담백한 맛. 웨이팅 있으니 식사 시간대 조금 피해 가면 좋아요.\n\n차분한 중식(코스/룸 문의 가능한 곳 위주)\n- 대가방 연희: 클래식 정통 중식. 코스 주문 가능, 조용하게 식사하기 좋아 상견례·가족 모임도 자주 해요. 예약 필수, 룸 여부는 전화로 문의.\n- 진진 연희본점: 옛 정취의 중식. 간이 세지 않고 튀김·탕류 잘하는 집. 어르신 동행 많아 응대도 익숙. 예약 추천.\n- 목란(연희): 깔끔한 중식 코스와 단품으로 유명. 대기가 잦아 예약/오픈런 권장.\n\n담백한 일식/면\n- 미미면가(연남): 소바·우동 전문. 자극 적고 가벼운 한 끼로 좋아요. 경의선숲길 따라 산책 겸 이동 가능. 웨이팅 있으니 오픈 직후 추천.\n\n고기 좋아하시면\n- 이치류(연남): 일본식 야키니쿠. 고기 질과 굽기 케어가 좋아 부모님 만족도 높음. 다만 연기/소음이 조금 있을 수 있어 이른 시간대 권장.\n\n예약·동선 팁\n- 홍대 메인거리보다 연남·연희·합정 쪽이 더 조용합니다. 가능하면 평일 또는 주말 이른 저녁으로 예약하세요.\n- 부모님이 맵기/염도를 민감해하시면 ‘담백한 쪽으로’ 미리 요청하면 간 조절을 도와주는 곳들이 많습니다.\n- 차량 이동이면 연희·공덕 쪽이 주차가 비교적 수월한 편(방문 전 매장에 주차 가능 여부 문의 권장).\n- 식사 전후로 경의선숲길(홍대입구–연남) 산책이 무난하고, 큰길보다 골목 카페들이 조용합니다.\n\n더 딱 맞게 골라드릴게요.\n- 예산(1인 얼마 정도?), 선호 음식(한식/중식/일식/고기), 룸 필요 여부, 이동수단(대중교통/차량), 맵기·짠맛 선호를 알려주시면 최적의 2~3곳으로 추려 드리겠습니다."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1813,114 +603,47 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "siksinhot.com",
+        "guide.michelin.com",
+        "diningcode.com",
+        "hmstory.net",
+        "tabling.co.kr"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 94031,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대·합정 일대에서 비 오는 날 뜨끈한 국물 먹기 좋은 곳 몇 곳만 골라드릴게요.\n\n- 원당감자탕 동교점(홍대입구역 인근) – 국물 진한 감자탕/뼈해장국. 동네에서 24시간 운영으로도 유명해 비 오는 날 늦게까지 든든하게 먹기 좋아요. ([siksinhot.com](https://www.siksinhot.com/P/1109159?utm_source=openai))\n- 합정옥(합정역) – 맑고 담백한 곰탕이 대표, 매콤한 속대국도 있어요. 국물 깔끔한 계열 좋아하시면 추천. ([siksinhot.com](https://www.siksinhot.com/P/630197?utm_source=openai))\n- 옥동식(합정/서교동) – 맑은 돼지곰탕으로 유명한 집. 미쉐린 가이드 비브 구르망 선정으로도 잘 알려져 있어요. ([guide.michelin.com](https://guide.michelin.com/kr/en/article/michelin-guide-ceremony/the-michelin-guide-seoul-and-busan-2024-bib-gourmand-selection?utm_source=openai))\n- 찐육개장(합정) – 이름 그대로 얼큰한 육개장 전문. 전골로도 주문 가능해서 비 오는 날 속 풀기 좋아요. ([diningcode.com](https://www.diningcode.com/profile.php?rid=wBt2eXChsRvh&utm_source=openai))\n- 등촌샤브칼국수 홍대점 – 샤브샤브 + 칼국수로 뜨끈하게, 야채 듬뿍 넣어 끓여먹는 타입. ([hmstory.net](https://hmstory.net/8711/deungchon-hongdae/?PageSpeed=noscript&utm_source=openai))\n- 멘야산다이메(홍대 본점) – 진한 라멘 국물 좋아하시면 여기. 비 오는 날 라멘 한 그릇 딱이에요. ([tabling.co.kr](https://www.tabling.co.kr/place/677cc71e66de5f06987419c6?utm_source=openai))\n- 하이디라오 홍대점 – 훠궈로 몸 데우기. 다양한 탕 베이스(토마토/마라 등)와 늦은 시간까지 영업. ([tabling.co.kr](https://www.tabling.co.kr/place/677ccb6e66de5f06987d3c05?utm_source=openai))\n\n원하시는 국물 타입이 맑은/진한/매운 쪽 중 어디인가요? 혼밥인지(혹은 2–3인/단체), 예산대, 그리고 지금 바로 가실 시간대(늦은 밤 여부) 알려주시면 더 딱 맞는 곳으로 추려드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_rainy",
       "channel_id": "gpt5_no_search",
-      "mentioned": true,
-      "rank": 4,
-      "context": "평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_rainy",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_rainy",
-      "channel_id": "claude_opus_no_search",
       "mentioned": false,
       "rank": null,
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
+      "latency_ms": 64375,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_rainy",
-      "channel_id": "gemini_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_rainy",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "홍대·연남·합정 쪽에서 비 오는 날 뜨끈한 국물로 딱 좋은 곳들 추천해요. 전반적으로 대기 조금 감안하면 만족도 높은 집들이에요.\n\n- 옥동식 (연남동, 홍대입구역 3번 출구 7분)\n  - 메뉴: 돼지고기 국수\n  - 포인트: 맑고 깊은 돼지육수에 담백한 고기 슬라이스. 비 오는 날 은은하게 속 풀리는 스타일.\n  - 팁: 재료 소진으로 조기 마감 잦아요. 오픈/브레이크타임 확인 추천.\n\n- 하카다분코 본점 (상수역 1번 출구 3분, 홍대 상권)\n  - 메뉴: 돈코츠 라멘, 매운 라멘, 교자\n  - 포인트: 진한 돈코츠 국물, 늦은 밤까지 든든. 비 오는 날 줄 있음.\n\n- 미분당 연남 (홍대입구역 3번 출구 5분)\n  - 메뉴: 차돌/홍두깨 쌀국수\n  - 포인트: 깔끔한 육향에 고기 듬뿍. 비 올 때 맑은 국물 당길 때 추천.\n  - 팁: 대기 잦음. 회전은 빠른 편.\n\n- 명화당 홍대본점 (홍대 메인거리, 홍대입구역 9번 출구 5분)\n  - 메뉴: 육칼(매운 소고기 국물 칼국수), 만두\n  - 포인트: 얼큰하고 칼칼한 국물. 비 오는 날 몸 데우기 최고.\n  - 팁: 매운 단계 조절 가능해요.\n\n- 등촌샤브칼국수 합정점 (합정역 3번 출구 3분)\n  - 메뉴: 샤브샤브+칼국수+볶음밥 코스\n  - 포인트: 뜨거운 육수에 채소·고기 듬뿍, 마지막 볶음밥까지 완벽. 단체/가족도 편해요.\n\n- 북창동순두부 홍대점 (홍대입구역 9번 출구 5분)\n  - 메뉴: 해물/김치/섞어 순두부찌개\n  - 포인트: 보글보글 사골 베이스 느낌의 구수함. 비 오는 밤에도 든든.\n  - 팁: 계란 탁 떨어뜨려 먹으면 굿.\n\n- 청진동 해장국 홍대입구점 (홍대입구역 2번 출구 근처)\n  - 메뉴: 선지/우거지 해장국\n  - 포인트: 칼칼하고 깊은 국물. 전날 과음했거나 추운 날 강추.\n\n- 마루가메제면 홍대점 (AK&몰/역사 인근)\n  - 메뉴: 가케/니꾸/카레 우동\n  - 포인트: 뜨끈한 우동 국물에 바삭한 텐푸라 조합. 몰 안이라 비 피하기 좋아요.\n\n- 은희네해장국 연남 (홍대입구역 3번 출구 8분)\n  - 메뉴: 소고기/선지 해장국\n  - 포인트: 제주식 스타일로 담백하면서도 진함. 비 올 때 속 편안해요.\n\n- 조마루감자탕 홍대점 (홍대입구역 8·9번 출구 6분)\n  - 메뉴: 감자탕, 뼈추가, 볶음밥\n  - 포인트: 김이 모락모락 나는 탕에 우거지 듬뿍. 비 오는 날 단체로 가성비 좋음.\n\n작은 팁\n- 피크: 점심 12–1시, 저녁 6–8시는 대기 많아요. 비 오는 날은 특히 빨리 붐벼서 오픈 타임이나 애매한 시간대 추천.\n- 우산: 몰/역사 안 매장은 우산 건조·보관 편해서 비 많이 오면 마루가메, 대형 샤브 매장 쪽이 편해요.\n- 영업시간·브레이크타임은 변동이 잦으니 방문 전 네이버 지도 등으로 최신 정보 확인 권장.\n\n원하시는 분위기(조용/캐주얼), 매운 정도, 예산, 동행 인원 알려주시면 2~3곳으로 더 추려서 길찾기 편한 동선으로 추천해드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
       "query_id": "q_hongdae_best_overall",
       "channel_id": "gpt5_search",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
+      "mentioned": false,
+      "rank": null,
+      "context": "",
       "sentiment": "neutral",
       "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
+        "guide.michelin.com",
+        "gotriptogether.tistory.com"
       ],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 76031,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "사루카메(Sarukame, 연남동)\n- 이유: 홍대·연남 권역에서 유일하게 미쉐린 가이드 ‘빕 구르망’에 오른 라멘집으로, 깊은 감칠맛의 맑은 국물 라멘이 탄탄합니다. 위치는 홍대입구역 인근 연남로(마포구) 쪽이에요. ([guide.michelin.com](https://guide.michelin.com/us/en/seoul-capital-area/kr-seoul/restaurant/sarukame?utm_source=openai))\n- 추천: 바지락(해물) 베이스 라멘 또는 니보시(멸치) 계열 라멘이 시그니처로 평가가 좋아요. 웨이팅이 잦으니 식사 시간대를 조금 벗어나 가면 편합니다. ([gotriptogether.tistory.com](https://gotriptogether.tistory.com/152?utm_source=openai))\n\n원픽으로 여기 추천해요. 다른 취향(한식/고기/술집 등)이면 말해주시면 맞춤으로 딱 하나 다시 골라드릴게요."
     },
     {
       "restaurant_id": "ongi_gukbap",
@@ -1931,78 +654,10 @@
       "context": "",
       "sentiment": "neutral",
       "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-gpt-5",
+      "latency_ms": 41546,
+      "model_version": "gpt-5-2025-08-07",
       "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_best_overall",
-      "channel_id": "claude_opus_search",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_best_overall",
-      "channel_id": "claude_opus_no_search",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [],
-      "latency_ms": 0,
-      "model_version": "mock-claude-opus-5",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_best_overall",
-      "channel_id": "gemini_search",
-      "mentioned": true,
-      "rank": 5,
-      "context": "평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다.",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-gemini-2.5-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 온기국밥 홍대점 — 홍대 인근에서 평이 좋은 곳입니다."
-    },
-    {
-      "restaurant_id": "ongi_gukbap",
-      "query_id": "q_hongdae_best_overall",
-      "channel_id": "perplexity_sonar",
-      "mentioned": false,
-      "rank": null,
-      "context": "",
-      "sentiment": "neutral",
-      "sources_used": [
-        "blog.naver.com",
-        "mangoplate.com",
-        "siksinhot.com"
-      ],
-      "latency_ms": 0,
-      "model_version": "mock-sonar-pro",
-      "error": "",
-      "response_text": "홍대 근처 추천 맛집입니다:\n1. 연남 소문난 국밥 — 홍대 인근에서 평이 좋은 곳입니다.\n2. 홍대 돈부리집 — 홍대 인근에서 평이 좋은 곳입니다.\n3. 합정 옛날손칼국수 — 홍대 인근에서 평이 좋은 곳입니다.\n4. 상수 브런치하우스 — 홍대 인근에서 평이 좋은 곳입니다.\n5. 망원 김치찜 — 홍대 인근에서 평이 좋은 곳입니다."
+      "response_text": "소이연남 본점. 진하고 깊은 소고기 국수(태국식 보트누들)가 압도적이라 홍대 일대에서 한 끼로 가장 확실합니다. 시그니처 소고기국수 주문 추천, 대기 길어 오픈 시간 근처가 좋아요."
     }
   ]
 }
