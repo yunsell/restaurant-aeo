@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{# SEO 핵심: title/description/H1에 "지역 + 카테고리 맛집" 키워드 포함 #}
+{% set keyword = area ~ " " ~ r.subcategory ~ " 맛집" %}
+
+{% block title %}{{ r.name }} — {{ keyword }} | {{ r.category }}{% endblock %}
+{% block description %}{{ keyword }} {{ r.name }}. {{ r.address }}, 영업시간 {{ r.hours }}. {{ r.category }} {{ r.subcategory }} 전문점.{% endblock %}
+
+{% block meta %}
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="{{ r.name }} — {{ keyword }}">
+  <meta property="og:description" content="{{ keyword }} {{ r.name }}. {{ r.address }}">
+  {% if r.website %}<meta property="og:url" content="{{ r.website }}">{% endif %}
+  <meta property="og:locale" content="ko_KR">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ r.name }} — {{ keyword }}">
+  <meta name="twitter:description" content="{{ keyword }} {{ r.name }}">
+{% endblock %}
+
+{% block jsonld %}
+  <script type="application/ld+json">
+{{ jsonld | safe }}
+  </script>
+{% endblock %}
+
+{% block content %}
+  <span class="badge">{{ r.category }} · {{ r.subcategory }}</span>
+  <h1>{{ r.name }} — {{ keyword }}</h1>
+  {% if r.name_en %}<p><em>{{ r.name_en }}</em></p>{% endif %}
+
+  <h2>매장 정보</h2>
+  <dl>
+    <dt>주소</dt><dd>{{ r.address }}</dd>
+    {% if r.phone %}<dt>전화</dt><dd><a href="tel:{{ r.phone }}">{{ r.phone }}</a></dd>{% endif %}
+    {% if r.hours %}<dt>영업시간</dt><dd>매일 {{ r.hours }}</dd>{% endif %}
+    {% if price_display %}<dt>가격대</dt><dd>{{ price_display }}</dd>{% endif %}
+    {% if r.website %}<dt>웹사이트</dt><dd><a href="{{ r.website }}">{{ r.website }}</a></dd>{% endif %}
+  </dl>
+
+  {% if r.aggregate_rating %}
+  <p>⭐ <strong>{{ r.aggregate_rating.value }}</strong> / 5 ({{ r.aggregate_rating.count }}개 리뷰)</p>
+  {% endif %}
+
+  {% if r.reviews %}
+  <h2>방문객 리뷰</h2>
+  {% for rv in r.reviews %}
+  <blockquote>
+    “{{ rv.text }}”
+    <footer>— {{ rv.author }} · ★{{ rv.rating }}</footer>
+  </blockquote>
+  {% endfor %}
+  {% endif %}
+
+  <h2>{{ keyword }}을 찾는다면</h2>
+  <p>{{ r.name }}은(는) {{ r.address }}에 위치한 {{ r.category }}
+     {{ r.subcategory }} 전문점입니다. {{ area }} 인근에서
+     {{ r.subcategory }}를 찾는 분들께 추천합니다.</p>
+{% endblock %}
+
+{% block footer %}© {{ r.name }} · 이 페이지는 restaurant-aeo로 생성되었습니다{% endblock %}
