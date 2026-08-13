@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: uv sync --all-extras
+
+      - name: Run tests with coverage
+        run: uv run pytest --cov=src --cov-fail-under=60
+
+      - name: Smoke test (mock pipeline)
+        env:
+          AEO_MODE: mock
+        run: |
+          uv run python -m src.measure.run_all
+          uv run python -m src.report.baseline_report
+          uv run python -m src.landing.build_site
