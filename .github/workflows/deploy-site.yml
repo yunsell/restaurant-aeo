@@ -6,6 +6,7 @@ on:
     paths:
       - "config/restaurants.yaml"
       - "src/landing/**"
+      - "site/**"          # 검색엔진 인증 파일 등 수동 추가 파일도 배포 트리거
       - ".github/workflows/deploy-site.yml"
   workflow_dispatch:
 
